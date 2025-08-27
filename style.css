@@ -280,13 +280,14 @@ ul.main-menu li a.active {
   
   ul.main-menu {
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 10px;
     flex-direction: row;
     justify-content: space-around;
   }
 
   ul.main-menu li {
     margin-bottom: 0;
+    margin-right:10px;
   }
 
   ul.main-menu li a {
