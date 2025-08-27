@@ -277,20 +277,23 @@ ul.main-menu li a.active {
   #page-wrapper {
     flex-direction: column;
   }
+  
   ul.main-menu {
-    width: auto;                  /* don't force full width */
+    width: 100%;
     padding: 10px 0;
     flex-direction: row;
-    justify-content: center;      /* center items */
-    gap: 20px;                    /* nice spacing between items */
+    justify-content: space-around;
   }
+
   ul.main-menu li {
     margin-bottom: 0;
   }
+
   ul.main-menu li a {
     font-size: 1.6rem;  /* smaller for mobile */
   }
-    #content {
+  
+  #content {
     margin-left: 0;
     width: auto;
     max-width: 100%;
