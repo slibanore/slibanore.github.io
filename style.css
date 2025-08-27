@@ -260,6 +260,43 @@ ul.main-menu li a.active {
   flex: 1;
 }
 
+.outreach-wrapper {
+  display: flex;
+  align-items: center;      /* vertical alignment */
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.outreach-intro {
+  flex: 2;                  /* 2/3 of horizontal space */
+  font-size: 1.6rem;
+}
+
+.outreach-image {
+  flex: 1;                  /* 1/3 of horizontal space */
+}
+
+.outreach-image img {
+  width: 100%;              /* fills 1/3 space */
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .outreach-wrapper {
+    flex-direction: column;   /* stack image and text */
+    align-items: center;
+    text-align: center;
+  }
+  .outreach-intro {
+    margin-bottom: 15px;
+  }
+  .outreach-image img {
+    width: 70%;               /* smaller on mobile */
+  }
+}
+
 @media (max-width: 768px) {
   .outreach-item {
     flex-direction: column;
