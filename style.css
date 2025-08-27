@@ -107,17 +107,25 @@ body {
 
 /* Header spans menu + content */
 header {
-  display: flex;                /* so it can contain the menu and text wrapper */
+  display: flex;
+  flex-direction: row;      /* menu + text side by side */
   align-items: flex-start;
   background: rgba(0,0,0,.8);
   color: #FFFFFF;
   padding: 25px;
-  margin-left: 20px;            /* tiny left margin */
-  margin-right: auto;           /* allow right alignment */
+  margin-left: 20px;
+  margin-right: auto;
   box-sizing: border-box;
-  width: calc(800px + 200px);   /* 200px = menu width, adjust to your menu size */
+  width: calc(800px + 200px);
   max-width: calc(800px + 200px);
 }
+
+/* Make text area vertical inside header */
+.header-text {
+  display: flex;
+  flex-direction: column;
+}
+
 
 /* Content only (not header) is limited */
 #content {
@@ -153,12 +161,17 @@ iframe {
 
 /* Menu fixed width */
 ul.main-menu {
-  width: 200px;                 /* define menu width explicitly */
+  width: 200px;
   margin: 0;
-  padding: 0;
+  padding: 10px 15px;    /* left/right padding */
   display: flex;
   flex-direction: column;
   list-style: none;
+  box-sizing: border-box;
+}
+
+ul.main-menu li {
+  margin-bottom: 1rem;
 }
 
 ul.main-menu li {
