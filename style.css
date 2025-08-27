@@ -104,11 +104,26 @@ html, body {
 body {
   margin:25px auto;
 }
-header, #content, footer { 
-  background: rgba(0,0,0,.8); 
-  padding:25px;
-  color:#FFFFFF; 
+
+/* Header and content share the same box width */
+header, #content { 
+  background: rgba(0,0,0,.8);
+  padding: 25px;
+  color: #FFFFFF; 
+  max-width: 800px;   /* same as body */
+  margin: 0 auto;     /* center */
 }
+
+/* Footer spans full width */
+footer { 
+  background: rgba(0,0,0,.8);
+  padding: 25px;
+  color: #FFFFFF;
+  width: 100%;        /* full page */
+  margin: 0;          /* reset auto-centering */
+  box-sizing: border-box; 
+}
+
 iframe {
   max-width:100%;
 }
@@ -151,7 +166,7 @@ ul.main-menu li a.active {
 }
 
 .logo {
-  max-width: 100px;   /* never bigger than 200px */
+  max-width: 150px;   /* never bigger than 200px */
   width: 100%;        /* scales down on smaller screens */
   height: auto;       /* keeps aspect ratio */
 }
