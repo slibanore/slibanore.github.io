@@ -147,6 +147,8 @@ footer {
   width: 100%;        /* full page */
   margin: 20px;          /* reset auto-centering */
   box-sizing: border-box; 
+  width: calc(800px + 200px);
+  max-width: calc(800px + 200px);
 }
 
 iframe {
