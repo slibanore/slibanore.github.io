@@ -226,7 +226,7 @@ ul.main-menu li a.active {
 }
 
 /* ======= MOBILE RESPONSIVE MODIFICATIONS ======= */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   header {
     flex-direction: column;
     margin-left: 10px;
