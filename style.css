@@ -330,11 +330,10 @@ ul.main-menu li a.active {
     margin-right: 10px;
   }
 #content {
-  max-width: calc(100% - 20px); /* same width as header/footer */
-  margin: 0 10px;               /* match side margins */
+    width: auto;            /* allow header to shrink */
+    max-width: 100%;
+    margin-left: 10px;
     margin-right: 10px;
-  padding: 15px;                /* inner spacing */
-  box-sizing: border-box;       /* keeps padding inside width */
   }
   
   ul.main-menu {
