@@ -340,13 +340,17 @@ ul.main-menu li a.active {
 
 /* ======= MOBILE RESPONSIVE MODIFICATIONS ======= */
 @media (max-width: 768px) {
+.desktop-title { display: none; }
+.mobile-title { display: block; }
+
   header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 100%;        /* allow full responsive width */
-    max-width: 100%;    /* prevent fixed desktop max */
-    margin: 0 auto;     /* center the whole header box */
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+    max-width: 100%;
     padding: 15px;
   }
 
@@ -438,7 +442,5 @@ ul.main-menu {
     text-align: center;
   }
   
-.desktop-title { display: none; }
-.mobile-title { display: block; }
 
 }
