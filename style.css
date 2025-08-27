@@ -364,20 +364,24 @@ ul.main-menu li a.active {
 @media (max-width: 768px) {
   header {
     flex-direction: column;
-    align-items: center;      /* centers children horizontally */
-    text-align: center;       /* centers text inside */
+    align-items: center;
+    text-align: center;
+    width: 100%;        /* allow full responsive width */
+    max-width: 100%;    /* prevent fixed desktop max */
+    margin: 0 auto;     /* center the whole header box */
+    padding: 15px;
   }
 
   .header-text {
     margin-left: 0;
     margin-top: 15px;
-    text-align: center;       /* makes title/description centered */
+    text-align: center;
   }
 
   header img {
     display: block;
-    margin: 0 auto;           /* centers the image itself */
-    max-width: 80%;           /* scales nicely on small screens */
+    margin: 0 auto;
+    max-width: 80%;    /* now this actually takes effect */
     height: auto;
   }
   
@@ -390,7 +394,7 @@ ul.main-menu {
   padding: 10px 10px;
   flex-direction: row;
   justify-content: center;   /* center the whole menu */
-  gap: 20px;                 /* even spacing between items */
+  gap: 10px;                 /* even spacing between items */
 }
 
 
@@ -429,9 +433,11 @@ ul.main-menu {
     height: auto;
     border-radius: 8px;
   }
-.outreach-item-image {
-  flex: 1;
-  text-align: center;   /* centers inline elements like img + a */
+.outreach-item {
+  display: flex;
+  flex-direction: column;   /* stack things vertically */
+  align-items: center;      /* center children horizontally */
+  text-align: center;
 }
 
 .outreach-item-image img {
