@@ -238,9 +238,11 @@ ul.main-menu li a.active {
     margin-right: 10px;
   }
   #content {
-    max-width: 90%;         /* slightly smaller content width */
-    margin-left: 10px;
-  }
+  width: 100%;
+  max-width: 100%;
+  padding: 25px;  /* or 15px for smaller spacing */
+  box-sizing: border-box; /* ensures padding doesn’t expand width */
+ }
   ul.main-menu {
     width: 180px;           /* slightly narrower menu */
     padding: 15px 30px;
