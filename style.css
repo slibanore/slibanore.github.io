@@ -165,7 +165,7 @@ iframe {
 ul.main-menu {
   width: 200px;
   margin: 0;
-  padding: 20px 50px;    /* left/right padding */
+  padding: 20px 70px;    /* left/right padding */
   display: flex;
   flex-direction: column;
   list-style: none;
