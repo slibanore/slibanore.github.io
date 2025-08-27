@@ -108,7 +108,7 @@ body {
 /* Header spans menu + content */
 header {
   display: flex;
-  flex-direction: column;      /* menu + text side by side */
+  flex-direction: row;      /* menu + text side by side */
   align-items: flex-start;
   background: rgba(30, 70, 65, 0.8);
   color: #FFFFFF;
