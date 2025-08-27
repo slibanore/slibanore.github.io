@@ -85,7 +85,11 @@
           <!---------->
           <div id="outreach" class="content-region hide">
             <h2>Outreach</h2>
-          <iframe src="outreach-content.html" style="width:100%; border:none;"></iframe>
+          <script>
+            $(document).ready(function(){
+              $("#outreach").load("outreach-content.html");
+            });
+          </script>
           </div>
           
           <!---------->
