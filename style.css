@@ -124,6 +124,7 @@ header {
 .header-text {
   display: flex;
   flex-direction: column;
+  margin-left: 10px; 
 }
 
 
@@ -163,7 +164,7 @@ iframe {
 ul.main-menu {
   width: 200px;
   margin: 0;
-  padding: 10px 50px;    /* left/right padding */
+  padding: 20px 50px;    /* left/right padding */
   display: flex;
   flex-direction: column;
   list-style: none;
