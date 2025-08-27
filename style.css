@@ -116,7 +116,6 @@ iframe {
   display: flex;
   flex-direction: row;   /* horizontal layout */
   align-items: flex-start;
-  min-height: 100vh;     /* full viewport height */
 }
 
 
