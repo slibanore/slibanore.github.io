@@ -251,7 +251,7 @@ ul.main-menu li a.active {
 }
 
 .outreach-item-image img {
-  width: 70%;     /* 80% of the column width */
+  width: 80%;     /* 80% of the column width */
   height: auto;
   border-radius: 4px;
 }
@@ -259,20 +259,13 @@ ul.main-menu li a.active {
 /* Reduce vertical spacing between title and description */
 .outreach-item-text h3 {
   margin-bottom: 5px;  /* smaller space below heading */
-}
-
-.outreach-item-description p {
-  margin-top: 5px;     /* smaller space above description */
+  flex: 1;
 }
 
 .outreach-item img {
   width: 100px;
   height: auto;
   border-radius: 4px;
-}
-
-.outreach-item-text {
-  flex: 1;
 }
 
 .outreach-wrapper {
