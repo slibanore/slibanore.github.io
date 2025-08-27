@@ -278,17 +278,17 @@ ul.main-menu li a.active {
     flex-direction: column;
   }
   ul.main-menu {
-    width: 100%;
+    width: auto;                  /* don't force full width */
     padding: 10px 0;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;      /* center items */
+    gap: 20px;                    /* nice spacing between items */
   }
   ul.main-menu li {
     margin-bottom: 0;
-    margin-right:10px;
   }
   ul.main-menu li a {
-    font-size: 1.4rem;  /* smaller for mobile */
+    font-size: 1.6rem;  /* smaller for mobile */
   }
     #content {
     margin-left: 0;
