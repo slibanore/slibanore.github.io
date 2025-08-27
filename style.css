@@ -376,7 +376,7 @@ ul.main-menu {
   padding: 10px 10px;
   flex-direction: row;
   justify-content: center;   /* center the whole menu */
-  gap: 7px;                 /* even spacing between items */
+  gap: 8px;                 /* even spacing between items */
 }
 
 
