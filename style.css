@@ -251,7 +251,7 @@ ul.main-menu li a.active {
 }
 
 .outreach-item-image img {
-  width: 150px;   /* make the image bigger */
+  width: 70%;     /* 80% of the column width */
   height: auto;
   border-radius: 4px;
 }
