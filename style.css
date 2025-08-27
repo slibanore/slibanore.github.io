@@ -80,7 +80,7 @@ q {
 
 
 q:before {
-  content: open-quote;
+  nt: open-quote;
 }
 
 q:after {
@@ -142,6 +142,7 @@ header {
 
 /* Content only (not header) is limited */
 #content {
+  width: 800px;
   max-width: 800px;
   padding: 25px;
   background: rgba(30, 70, 65, 0.8);
