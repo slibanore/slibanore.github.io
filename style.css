@@ -128,8 +128,8 @@ header {
   margin-left: 20px;
   margin-right: auto;
   box-sizing: border-box;
-  width: calc(800px + 200px);
-  max-width: calc(800px + 200px);
+  width: auto;
+  max-width: 100%;
 }
 
 /* Make text area vertical inside header */
@@ -171,6 +171,7 @@ iframe {
 #page-wrapper {
   display: flex;
   flex-direction: row;   
+  flex-wrap: wrap; /* allows content to stack if not enough space */
   align-items: flex-start;
 }
 
@@ -250,8 +251,12 @@ ul.main-menu li a.active {
   }
   ul.main-menu li {
     margin-bottom: 0;
+    margin-right:10px;
   }
-  #content {
+  ul.main-menu li a {
+    font-size: 1.4rem;  /* smaller for mobile */
+  }
+    #content {
     margin-left: 0;
     width: auto;
     max-width: 100%;
