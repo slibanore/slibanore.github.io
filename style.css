@@ -226,7 +226,40 @@ ul.main-menu li a.active {
 }
 
 /* ======= MOBILE RESPONSIVE MODIFICATIONS ======= */
-@media (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
+  header, #content, footer {
+    padding: 15px;          /* smaller padding */
+    font-size: 0.9em;       /* scale down text */
+  }
+  header {
+    width: auto;            /* allow header to shrink */
+    max-width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #content {
+    max-width: 90%;         /* slightly smaller content width */
+    margin-left: 10px;
+  }
+  ul.main-menu {
+    width: 180px;           /* slightly narrower menu */
+    padding: 15px 30px;
+  }
+  ul.main-menu li a {
+    font-size: 1.6rem;      /* scale down links */
+  }
+  footer {
+    width: auto;
+    max-width: 100%;
+    margin: 10px;
+    padding: 15px;
+  }
+}
+
+
+
+/* ======= MOBILE RESPONSIVE MODIFICATIONS ======= */
+@media (max-width: 768px) {
   header {
     flex-direction: column;
     margin-left: 10px;
