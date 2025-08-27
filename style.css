@@ -371,12 +371,14 @@ ul.main-menu li a.active {
     flex-direction: column;
   }
   
-  ul.main-menu {
-    width: 100%;
-    padding: 10px 10px;
-    flex-direction: row;
-    justify-content: space-around;
-  }
+ul.main-menu {
+  width: 100%;
+  padding: 10px 10px;
+  flex-direction: row;
+  justify-content: center;   /* center the whole menu */
+  gap: 20px;                 /* even spacing between items */
+}
+
 
   ul.main-menu li {
     margin-bottom: 0;
@@ -390,6 +392,7 @@ ul.main-menu li a.active {
   #content {
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 15px;
     width: auto;
     max-width: 100%;
     padding: 15px;
@@ -412,10 +415,21 @@ ul.main-menu li a.active {
     height: auto;
     border-radius: 8px;
   }
-  footer {
-    width: auto;
-    max-width: 100%;
-    margin: 10px 0;
-    padding: 15px;
-  }
+.outreach-item-image {
+  flex: 1;
+  text-align: center;   /* centers inline elements like img + a */
+}
+
+.outreach-item-image img {
+  display: block;
+  margin: 0 auto;       /* ensure the image itself is centered */
+  width: 150px;         /* or whatever size */
+  height: auto;
+}
+
+.outreach-item-image a {
+  display: inline-block;
+  margin-top: 10px;
+  text-align: center;
+}
 }
