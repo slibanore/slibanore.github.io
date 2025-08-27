@@ -109,6 +109,16 @@ iframe {
   max-width:100%;
 }
 
+
+/* Wrapper for menu + content */
+#page-wrapper {
+  display: flex;
+  flex-direction: row;   /* horizontal layout */
+  align-items: flex-start;
+  min-height: 100vh;     /* full viewport height */
+}
+
+
 /* Vertical Menu Links */
 ul.main-menu {
   margin: 0;
