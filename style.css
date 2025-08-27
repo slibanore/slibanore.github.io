@@ -151,8 +151,9 @@ ul.main-menu li a.active {
 }
 
 .logo {
-  width: 150px;    /* or any size */
-  height: auto;    /* keeps proportions */
+  max-width: 100px;   /* never bigger than 200px */
+  width: 100%;        /* scales down on smaller screens */
+  height: auto;       /* keeps aspect ratio */
 }
 
 /* Utility classes */
