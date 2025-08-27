@@ -383,6 +383,24 @@ ul.main-menu li a.active {
     max-width: 100%;
     padding: 15px;
   }
+
+   .outreach-intro-wrapper {
+    flex-direction: column-reverse; /* image comes before text */
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .outreach-intro {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .outreach-image img {
+    width: 70%;   /* scales down image */
+    height: auto;
+    border-radius: 8px;
+  }
   footer {
     width: auto;
     max-width: 100%;
