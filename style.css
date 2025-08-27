@@ -109,27 +109,33 @@ iframe {
   max-width:100%;
 }
 
-/* Menu Links */
+/* Vertical Menu Links */
 ul.main-menu {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: left;
+  flex-direction: column;  /* stack items vertically */
   list-style: none;
 }
+
+ul.main-menu li {
+  margin-bottom: 1rem;   /* spacing between menu items */
+}
+
 ul.main-menu li a {
-  margin-right:20px;
-  font-size:2.0rem;
-  border-bottom: solid transparent 3px;
-  color:#cfd2da;
+  font-size: 2.0rem;
+  color: #cfd2da;
+  text-decoration: none;
+  border-bottom: solid transparent 3px; 
 }
+
 ul.main-menu li a:hover {
-  color:#FFFFFF;
+  color: #FFFFFF;
 }
+
 ul.main-menu li a.active {
-  color:#FFFFFF;
-  border-bottom-color:#EF6D3D;
+  color: #FFFFFF;
+  border-bottom-color: #EF6D3D;
 }
 
 /* Utility classes */
