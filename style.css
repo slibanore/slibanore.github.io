@@ -149,19 +149,19 @@ header {
   margin-left: 20px;            
   box-sizing: border-box;
 }
-/* Make all contact icons white and bigger */
-#contact i {
-  color: white;       /* icons white */
-  font-size: 1.6em;   /* bigger than default */
+
+#contact .icon {
+  width: 28px;
+  height: 28px;
   vertical-align: middle;
-  margin-right: 10px; /* space between icon and text */
+  filter: invert(1);      /* makes black SVGs white */
+  margin-right: 8px;      /* space between icon and text */
 }
 
-/* Extra spacing between icons (LinkedIn, ORCID) */
 #contact a {
-  margin-right: 15px; /* space between different icons/links */
-  color: white;       /* make links white too */
+  margin-right: 15px;     /* spacing between icons */
   text-decoration: none;
+  color: white;           /* email text also white */
 }
 
 #contact a:hover {
