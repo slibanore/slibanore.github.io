@@ -150,6 +150,11 @@ ul.main-menu li a.active {
   border-bottom-color: #EF6D3D;
 }
 
+.logo {
+  width: 150px;    /* or any size */
+  height: auto;    /* keeps proportions */
+}
+
 /* Utility classes */
 .hide {
   display:none;
