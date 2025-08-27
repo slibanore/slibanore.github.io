@@ -105,16 +105,28 @@ body {
   margin:25px auto;
 }
 
-/* Header and content share the same box width */
-/* Shared style for header and content */
-header, #content {
-  max-width: 800px;       /* same width */
-  margin: 0 auto;         /* centers them equally */
-  margin-left: 20px;      /* tiny left margin */
-  padding: 25px;          /* same padding */
+/* Header spans menu + content */
+header {
+  display: flex;                /* so it can contain the menu and text wrapper */
+  align-items: flex-start;
   background: rgba(0,0,0,.8);
   color: #FFFFFF;
-  box-sizing: border-box; /* include padding in width calculation */
+  padding: 25px;
+  margin-left: 20px;            /* tiny left margin */
+  margin-right: auto;           /* allow right alignment */
+  box-sizing: border-box;
+  width: calc(800px + 200px);   /* 200px = menu width, adjust to your menu size */
+  max-width: calc(800px + 200px);
+}
+
+/* Content only (not header) is limited */
+#content {
+  max-width: 800px;
+  padding: 25px;
+  background: rgba(0,0,0,.8);
+  color: #FFFFFF;
+  margin-left: 20px;            /* aligns with header left */
+  box-sizing: border-box;
 }
 
 /* Footer spans full width */
@@ -139,12 +151,13 @@ iframe {
   align-items: flex-start;
 }
 
-/* Vertical Menu Links */
+/* Menu fixed width */
 ul.main-menu {
+  width: 200px;                 /* define menu width explicitly */
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column;  /* stack items vertically */
+  flex-direction: column;
   list-style: none;
 }
 
