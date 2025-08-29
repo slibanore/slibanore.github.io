@@ -295,33 +295,31 @@ ul.main-menu li a.active {
 
 
 /* ======= MOBILE RESPONSIVE MODIFICATIONS ======= */
-@media (min-width: 769px) and (max-width: 1024px) {
-  header, #content, footer {
-    padding: 15px;          /* smaller padding */
-    font-size: 0.9em;       /* scale down text */
-  }
-  header {
-    flex-direction: column;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: auto;
-    max-width: 100%;
-  }
-  .header-text {
-    margin-left: 0;
-    margin-top: 15px;
-  }
+@media (min-width: 769px) and (max-width: 1024px) { 
+      header, #content, footer { padding: 15px; /* smaller padding */ 
+                                font-size: 0.9em; /* scale down text */ } 
+      header {flex-direction: column; 
+              margin-left: 10px; 
+              margin-right: 10px; 
+              width: auto; max-width: 100%; 
+              padding: 15px; } 
   
-  ul.main-menu {
-    width: 180px;           /* slightly narrower menu */
-    padding: 15px 30px;
-  }
-  ul.main-menu li a {
-    font-size: 1.6rem;      /* scale down links */
-  }
-
-  .mobile-title { display: none; }
-  }
+     .header-text { margin-left: 0; margin-top: 15px; } 
+  
+    #content {margin-left: 10px; 
+              margin-right: 10px; 
+              width: auto; max-width: 100%; 
+              padding: 15px; } 
+    
+  ul.main-menu { width: 180px; /* slightly narrower menu */ 
+                padding: 15px 30px; } 
+  
+  ul.main-menu li a { font-size: 1.6rem; 
+                     /* scale down links */ } 
+  
+  footer { width: auto; max-width: 100%; 
+          margin: 10px; 
+          padding: 15px; } .mobile-title { display: none; } }
 
 
 /* ======= MOBILE RESPONSIVE MODIFICATIONS ======= */
