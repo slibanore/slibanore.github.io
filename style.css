@@ -314,7 +314,7 @@ ul.main-menu li a.active {
   ul.main-menu { width: 180px; /* slightly narrower menu */ 
                 padding: 15px 30px; } 
   
-  ul.main-menu li a { font-size: 1.6rem; 
+  ul.main-menu li a { font-size: 1.7rem; 
                      /* scale down links */ } 
   
   footer { width: auto; max-width: 100%; 
