@@ -333,9 +333,9 @@ ul.main-menu li a.active {
     margin: 10px;
     padding: 15px;
   }
-}
 
-.mobile-title { display: none; }
+  .mobile-title { display: none; }
+  }
 
 
 /* ======= MOBILE RESPONSIVE MODIFICATIONS ======= */
