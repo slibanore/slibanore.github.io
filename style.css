@@ -299,6 +299,7 @@ ul.main-menu li a.active {
   header, #content, footer {
     padding: 15px;          /* smaller padding */
     font-size: 0.9em;       /* scale down text */
+    box-sizing: border-box; /* include padding in width */
   }
   header {
     flex-direction: column;
@@ -306,18 +307,10 @@ ul.main-menu li a.active {
     margin-right: 10px;
     width: auto;
     max-width: 100%;
-    padding: 15px;
   }
   .header-text {
     margin-left: 0;
     margin-top: 15px;
-  }
-
-#content {
-    width: auto;            /* allow header to shrink */
-    max-width: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
   }
   
   ul.main-menu {
@@ -326,12 +319,6 @@ ul.main-menu li a.active {
   }
   ul.main-menu li a {
     font-size: 1.6rem;      /* scale down links */
-  }
-  footer {
-    width: auto;
-    max-width: 100%;
-    margin: 10px;
-    padding: 15px;
   }
 
   .mobile-title { display: none; }
