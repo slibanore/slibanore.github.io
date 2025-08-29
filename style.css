@@ -299,7 +299,6 @@ ul.main-menu li a.active {
   header, #content, footer {
     padding: 15px;          /* smaller padding */
     font-size: 0.9em;       /* scale down text */
-    box-sizing: border-box; /* include padding in width */
   }
   header {
     flex-direction: column;
