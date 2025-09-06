@@ -262,7 +262,8 @@ ul.main-menu li a.active {
 }
 
 .outreach-image img {
-  width: 100%;
+  width: 80%;
+  max-width: 400px; 
   height: auto;
   border-radius: 8px;
 }
@@ -271,7 +272,7 @@ ul.main-menu li a.active {
 .outreach-conclusion {
   margin-top: 15px;
   padding: 25px;
-  background: rgba(30, 70, 65, 0.8); /* same as header/content/footer */
+  background: transparent; /* same as header/content/footer */
   color: #fff;
   width: calc(1000px + 200px);   /* match content width */
   max-width: 100%;
