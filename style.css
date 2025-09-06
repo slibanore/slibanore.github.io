@@ -291,6 +291,14 @@ ul.main-menu li a.active {
   border-radius: 8px;
 }
 
+/* Full-width conclusion */
+.outreach-conclusion {
+  margin-top: 15px;
+  padding: 15px;
+  background: rgba(0,0,50,0.7); /* matches your theme */
+  color: #fff;
+}
+
 .mobile-title { display: none; }
 
 
