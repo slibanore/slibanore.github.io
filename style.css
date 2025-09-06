@@ -309,6 +309,7 @@ ul.main-menu li a.active {
   width: 80%;
   height: auto;
   border-radius: 4px;
+    margin-top: 20px; /* pushes the image down relative to text */
 }
 .mobile-title { display: none; }
 
