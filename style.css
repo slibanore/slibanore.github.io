@@ -261,6 +261,8 @@ ul.main-menu li a.active {
 }
 .outreach-image {
   flex: 1;
+  align-self: flex-start; /* current default */
+  margin-top: 20px;       /* pushes it down */
 }
 
 .outreach-image img {
