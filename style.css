@@ -321,7 +321,7 @@ ul.main-menu li a.active {
     font-size: 0.9em; /* scale down text */
     width: 100%;       /* ✅ force full width, same as header */
     max-width: 100%;
-    background: rgba(30, 70, 65, 0.8); /* ✅ keep consistent background */
+    background: rgba(187, 221, 212, 0.3); /* ✅ keep consistent background */
     box-sizing: border-box;
   } 
 
@@ -370,7 +370,7 @@ ul.main-menu li a.active {
     width: 100%; /* ✅ span full width */
     max-width: 100%;
     margin: 10px 0 0 0; /* ✅ align with content */
-    background: rgba(30, 70, 65, 0.8); /* ✅ consistent background */
+    background: rgba(187, 221, 212, 0.3); /* ✅ consistent background */
     padding: 20px;
     box-sizing: border-box;
   }
@@ -390,7 +390,7 @@ ul.main-menu li a.active {
     width: 100%; 
     max-width: 100%;
     padding: 15px;
-    background: rgba(30, 70, 65, 0.8); /* ✅ consistent background */
+    background: rgba(187, 221, 212, 0.3); /* ✅ consistent background */
   }
 
   .header-text {
@@ -432,7 +432,7 @@ ul.main-menu li a.active {
     width: 100%;        /* ✅ full width */
     max-width: 100%;
     padding: 15px;
-    background: rgba(30, 70, 65, 0.8); /* ✅ consistent background */
+    background: rgba(187, 221, 212, 0.3); /* ✅ consistent background */
     box-sizing: border-box;
   }
 
@@ -491,7 +491,7 @@ ul.main-menu li a.active {
     max-width: 100%;
     margin: 10px 0 0 0;
     padding: 15px;
-    background: rgba(30, 70, 65, 0.8); /* ✅ consistent background */
+    background: rgba(187, 221, 212, 0.3); /* ✅ consistent background */
     box-sizing: border-box;
     text-align: center;
   }  
