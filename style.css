@@ -23,7 +23,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#bbddd4;
+  color:#EF6D3D;
 }
 
 
@@ -145,7 +145,7 @@ header {
   width: 1000px;
   max-width: 1000px;
   padding: 25px;
-  background: rgba(30, 70, 65, 0.8);
+  background: rgba(187, 221, 212, 0.8);
   color: #FFFFFF;
   margin-left: 20px;            
   box-sizing: border-box;
@@ -221,7 +221,7 @@ ul.main-menu li a:hover {
 
 ul.main-menu li a.active {
   color: #FFFFFF;
-  border-bottom-color: #bbddd4;
+  border-bottom-color: #EF6D3D;
 }
 
 /* Header and content stacking on small screens */
