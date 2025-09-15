@@ -89,7 +89,7 @@ q:after {
 
 blockquote {
   /*background-color: #F8F8F8;*/
-  border-left: 2px solid ##bbddd4;
+  border-left: 2px solid #bbddd4;
   margin: 1.6em 10%;
   padding: .75em 1em;
   font-size:1.8rem;
@@ -210,7 +210,7 @@ ul.main-menu li {
 
 ul.main-menu li a {
   font-size: 2.0rem;
-  color: #cfd2da;
+  color: #bbddd4;
   text-decoration: none;
   border-bottom: solid transparent 3px; 
 }
@@ -221,7 +221,7 @@ ul.main-menu li a:hover {
 
 ul.main-menu li a.active {
   color: #FFFFFF;
-  border-bottom-color: #EF6D3D;
+  border-bottom-color: #bbddd4;
 }
 
 /* Header and content stacking on small screens */
