@@ -314,57 +314,70 @@ ul.main-menu li a.active {
 .mobile-title { display: none; }
 
 
-/* ======= MOBILE RESPONSIVE MODIFICATIONS ======= */
+/* ======= MOBILE RESPONSIVE MODIFICATIONS (TABLET) ======= */
 @media (min-width: 769px) and (max-width: 1024px) { 
-      header, #content, footer { padding: 15px; /* smaller padding */ 
-                                font-size: 0.9em; /* scale down text */ } 
-      header {flex-direction: column; 
-              margin-left: 10px; 
-              margin-right: 10px; 
-              width: auto; max-width: 100%; 
-              padding: 15px; } 
-  
-     .header-text { margin-left: 0; margin-top: 15px; } 
-  
-    #content {margin-left: 10px; 
-              margin-right: 10px; 
-              width: auto; max-width: 100%; 
-              padding: 15px; } 
-    
-  ul.main-menu { width: 180px; /* slightly narrower menu */ 
-                padding: 15px 30px; } 
-  
-  ul.main-menu li a { font-size: 1.7rem; 
-                     /* scale down links */ } 
-  
-  footer { width: auto; max-width: 100%; 
-          margin: 10px; 
-          padding: 15px; } .mobile-title { display: none; } }
+  header, #content, footer { 
+    padding: 15px; /* smaller padding */ 
+    font-size: 0.9em; /* scale down text */
+    width: 100%;       /* ✅ force full width, same as header */
+    max-width: 100%;
+    background: rgba(30, 70, 65, 0.8); /* ✅ keep consistent background */
+    box-sizing: border-box;
+  } 
 
-.outreach-wrapper {
-  flex-direction: row; /* keep side-by-side if enough space */
-  align-items: flex-start;
-  gap: 15px;
-  margin-bottom: 10px; 
-}
-.outreach-intro p:last-child {
-  margin-bottom: 0;    /* remove extra bottom margin from last paragraph */
-}
-.outreach-image img {
-  width: 100%;
-  max-width: 350px; /* smaller than desktop */
-  height: auto;
+  header {
+    flex-direction: column; 
+    margin-left: 0;   /* ✅ remove uneven margins */
+    margin-right: 0;
+  }
+
+  .header-text { 
+    margin-left: 0; 
+    margin-top: 15px; 
+  } 
+  
+  ul.main-menu { 
+    width: 100%; /* ✅ full width menu for consistency */
+    padding: 15px 30px; 
+  } 
+  
+  ul.main-menu li a { 
+    font-size: 1.7rem; /* scale down links */ 
+  } 
+  
+  footer { 
+    margin: 0; /* ✅ align with header/content */
+  } 
+
+  .mobile-title { display: none; }
+  
+  .outreach-wrapper {
+    flex-direction: row; /* side by side */
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 10px; 
+  }
+  .outreach-intro p:last-child {
+    margin-bottom: 0;
+  }
+  .outreach-image img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  .outreach-conclusion {
+    width: 100%; /* ✅ span full width */
+    max-width: 100%;
+    margin: 10px 0 0 0; /* ✅ align with content */
+    background: rgba(30, 70, 65, 0.8); /* ✅ consistent background */
+    padding: 20px;
+    box-sizing: border-box;
+  }
 }
 
-.outreach-conclusion {
-  width: 100%;
-  margin-top: 10px;
-  max-width: 100%;
-  background: transparent;
-  padding: 20px;
-}
 
-/* ======= MOBILE RESPONSIVE MODIFICATIONS ======= */
+/* ======= MOBILE RESPONSIVE MODIFICATIONS (PHONE) ======= */
 @media (max-width: 768px) {
 .desktop-title { display: none; }
 .mobile-title { display: block; }
@@ -373,11 +386,11 @@ ul.main-menu li a.active {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: auto;
+    margin: 0; /* ✅ align flush */
+    width: 100%; 
     max-width: 100%;
     padding: 15px;
+    background: rgba(30, 70, 65, 0.8); /* ✅ consistent background */
   }
 
   .header-text {
@@ -389,7 +402,7 @@ ul.main-menu li a.active {
   header img {
     display: block;
     margin: 0 auto;
-    max-width: 80%;    /* now this actually takes effect */
+    max-width: 80%;
     height: auto;
   }
   
@@ -397,35 +410,34 @@ ul.main-menu li a.active {
     flex-direction: column;
   }
   
-ul.main-menu {
-  width: 100%;
-  padding: 10px 10px;
-  flex-direction: row;
-  justify-content: center;   /* center the whole menu */
-  gap: 9px;                 /* even spacing between items */
-}
-
+  ul.main-menu {
+    width: 100%;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9px;
+  }
 
   ul.main-menu li {
     margin-bottom: 0;
-    margin-right:10px;
+    margin-right: 10px;
   }
 
   ul.main-menu li a {
-    font-size: 1.6rem;  /* smaller for mobile */
+    font-size: 1.6rem;
   }
   
   #content {
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 15px;
-    width: auto;
+    margin: 0 0 15px 0; /* ✅ flush left/right */
+    width: 100%;        /* ✅ full width */
     max-width: 100%;
     padding: 15px;
+    background: rgba(30, 70, 65, 0.8); /* ✅ consistent background */
+    box-sizing: border-box;
   }
 
-   .outreach-intro-wrapper {
-    flex-direction: column-reverse; /* image comes before text */
+  .outreach-intro-wrapper {
+    flex-direction: column-reverse;
     align-items: center;
     text-align: center;
     gap: 15px;
@@ -437,51 +449,50 @@ ul.main-menu {
   }
 
   .outreach-image img {
-    width: 70%;   /* scales down image */
+    width: 70%;
     height: auto;
     border-radius: 8px;
   }
-.outreach-item {
-  display: flex;
-  flex-direction: column;   /* stack things vertically */
-  align-items: center;      /* center children horizontally */
-  text-align: center;
-  margin-bottom:10px:
-}
-  .outreach-item p:last-child { margin-bottom: 0; /* remove extra bottom margin from last paragraph */ }
-  
-.outreach-item-image img {
-  width: 60%;      /* scales with screen */
-  max-width: 150px;
-  height: auto;
-}
 
-.outreach-item-image a {
-  display: inline-block;
-  margin-top: 10px;
-  text-align: center;
-}
+  .outreach-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .outreach-item p:last-child { margin-bottom: 0; }
 
-/* Mobile responsiveness */
-.outreach-wrapper {
-  flex-direction: column; /* stack text and image */
-  align-items: center;
-  text-align: center;
-  margin-bottom: 10px;
-}
+  .outreach-item-image img {
+    width: 60%;
+    max-width: 150px;
+    height: auto;
+  }
+
+  .outreach-item-image a {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .outreach-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
   .outreach-intro p:last-child {
-  margin-bottom: 0;    /* remove extra bottom margin from last paragraph */
-}
+    margin-bottom: 0;
+  }
 
-.outreach-conclusion {
-    width: 100%;
+  .outreach-conclusion {
+    width: 100%; /* ✅ span full width */
     max-width: 100%;
-    margin-left: 0;
-  margin-top: 10px;
+    margin: 10px 0 0 0;
     padding: 15px;
-    background: transparent; /* keep it transparent */
+    background: rgba(30, 70, 65, 0.8); /* ✅ consistent background */
     box-sizing: border-box;
     text-align: center;
   }  
-
 }
