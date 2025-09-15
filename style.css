@@ -370,7 +370,7 @@ ul.main-menu li a.active {
     width: 100%; /* ✅ span full width */
     max-width: 100%;
     margin: 10px 0 0 0; /* ✅ align with content */
-    background: rgba(187, 221, 212, 0.3); /* ✅ consistent background */
+    background: transparent; /* ✅ consistent background */
     padding: 20px;
     box-sizing: border-box;
   }
@@ -491,7 +491,7 @@ ul.main-menu li a.active {
     max-width: 100%;
     margin: 10px 0 0 0;
     padding: 15px;
-    background: rgba(187, 221, 212, 0.3); /* ✅ consistent background */
+    background: transparent; /* ✅ consistent background */
     box-sizing: border-box;
     text-align: center;
   }  
