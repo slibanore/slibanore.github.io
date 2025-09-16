@@ -7,7 +7,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-size: 2em;
+  font-size: 1.8em;
   line-height: 1.8;
   font-weight: 400;
   font-family: "Raleway", sans-serif;
@@ -47,7 +47,7 @@ h6 {
   line-height: 1;
   text-rendering: optimizeLegibility; /*  voodoo to enable ligatures and kerning | https://developer.mozilla.org/en-US/docs/CSS/text-rendering */
   margin-top: 0;
-  margin-bottom: 2em;
+  margin-bottom: 1.8em;
   font-weight: 300;
 }
 
@@ -88,7 +88,7 @@ blockquote {
   border-left: 2px solid #bbddd4;
   margin: 1.6em 10%;
   padding: .75em 1em;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 
 
@@ -205,7 +205,7 @@ ul.main-menu li {
 }
 
 ul.main-menu li a {
-  font-size: 2em;
+  font-size: 1.8em;
   color: #bbddd4;
   text-decoration: none;
   border-bottom: solid transparent 3px; 
@@ -250,7 +250,7 @@ ul.main-menu li a.active {
 
 .outreach-intro {
   flex: 2;
-  font-size: 2em;
+  font-size: 1.8em;
 }
 .outreach-intro p:last-child {
   margin-bottom: 0; /* remove extra bottom margin from last paragraph */
@@ -290,7 +290,7 @@ ul.main-menu li a.active {
 .outreach-item p:last-child { margin-bottom: 0; /* remove extra bottom margin from last paragraph */ }
 .outreach-item-text {
   flex: 2;
-  font-size: 2em;
+  font-size: 1.8em;
   width: 100%;   /* allow full width */
 }
 
