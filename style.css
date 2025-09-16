@@ -250,7 +250,7 @@ ul.main-menu li a.active {
 
 .outreach-intro {
   flex: 2;
-  font-size: 1.9em;
+  font-size: 1em;
 }
 .outreach-intro p:last-child {
   margin-bottom: 0; /* remove extra bottom margin from last paragraph */
