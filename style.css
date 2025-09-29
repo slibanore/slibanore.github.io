@@ -307,14 +307,14 @@ ul.main-menu li a.active {
   flex: 1;
   text-align: center;
   align-self: flex-start; /* current default */
-  margin-top: 20px;       /* pushes it down */
+  margin-top: 70px;       /* pushes it down */
 }
 
 .outreach-item-image img {
   width: 80%;
   height: auto;
   border-radius: 4px;
-    margin-top: 20px; /* pushes the image down relative to text */
+    margin-top: 70px; /* pushes the image down relative to text */
 }
 .mobile-title { display: none; }
 
