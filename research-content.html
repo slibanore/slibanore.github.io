@@ -15,29 +15,55 @@
 
 <br>
 
-  <!-- LINE INTENSITY MAPPING -->
-  <div class="outreach-item">
-    <div class="outreach-item-text">
-      <h3>Line Intensity Mapping</h3><br>
-      <img src="LIM.png" style="width:100%; height:auto;">
-      Line Intensity Mapping (LIM) surveys collect all incoming photons within a specific frequency band; rather than identifying resolved sources, their observables rely on the statistical analysis of <strong>intensity fluctuations</strong> across the observed map.<br> 
-      As a result, LIM offers unique advantages: it probes very high redshifts, captures the <strong>cumulative emission from faint</strong> and otherwise undetectable populations, 
-      <a href="https://arxiv.org/abs/2208.01658" target="_blank">indirectly traces matter distribution on small scales</a> 
-      and remains sensitive to a broad range of physical processes, from the intergalactic and interstellar medium in its various phases, to 
-      <a href="https://arxiv.org/abs/2404.01500" target="_blank">exotic emission sources such as decaying dark matter</a>.
-    </div>
-  </div>
-
-<br>
-
   <!-- EPOCH OF REIONIZATION -->
   <div class="outreach-item">
     <div class="outreach-item-text">
       <h3>Tackling the Epoch of Reionization</h3><br>
-      <img src="EoR.png" style="width:100%; height:auto;">
-      <p><a href="https://arxiv.org/abs/2509.08886" target="_blank">...new boundary condition on the onset...</a></p>
+      <figure style="display:flex; align-items:center;">
+        <img src="EoR.png" alt="Epoch of Reionization illustration" style="width:60%; height:auto; margin-right:1em;">
+        <figcaption style="font-size:0.9em; color:#555; max-width:35%;">
+          Maps by oLIMpus. On the top, LSS overdensities correlate with high star formation and strong line emission. The neutral hydrogen fraction shows anticorrelation, due to ionized bubbles. On the bottom, at high $z$ the cold IGM produces 21-cm absorption, hence in overdense regions it anticorrelates with OIII. As galaxies form and heat the gas, we see a positive correlation, until ionized bubbles turn it back to negative.
+        </figcaption>
+      </figure>
+      How did the Universe come to be the way it is? How did it evolve from a state filled with <strong>neutral hydrogen</strong> after recombination to the richly structured cosmos we observe today, with galaxies scattered across vast distances and an intergalactic medium (IGM) that is mostly ionized? <br>
+      I am particularly fascinated by what I like to call the "teenager Universe": the <strong>Cosmic Dawn</strong> (z < 30) and the <strong>Epoch of Reionization</strong> (EoR, z &asymp; 5-15). During this time, the radiation from the first galaxies altered the properties of the IGM, driving its phase transition. <br>
+      To study these epochs, we can rely on two types of signals: the <strong>21-cm line</strong> emitted by neutral hydrogen in the IGM, and <strong>emission lines</strong> produced during star formation (e.g., CII, OIII, CO). The most powerful technique to observe them is <strong>line intensity mapping</strong> (LIM). <br><br>
+  
+      To model these signals consistently, I recently released <a href="https://arxiv.org/abs/2507.15922" target="_blank">oLIMpus: a fully analytical effective model to study LIM auto- and cross-power spectra</a>. The code is fast and scalable, capable of generating 21-cm and line-intensity maps in seconds and 
+      can be found in <a href="https://github.com/slibanore/oLIMpus" target="_blank"> my GitHub page</a><\a>. Its flexible architecture allows extensions to lower redshifts, beyond-&Lambda;CDM cosmologies, and more complex astrophysical models informed by hydrodynamical simulations or observations. Its low computational cost makes it particularly suitable for exploring wide parameter spaces and performing MCMC analyses. <br>
+      Cross-correlation studies open new paths to investigate the EoR. One first application is the study of <a href="https://arxiv.org/abs/2509.08886" target="_blank">a new boundary condition on its onset</a>, based on the Pearson coefficient between maps. This approach provides a robust, model-independent signature of the earliest stages, when the very first ionized bubbles began to form.  
     </div>
   </div>
+
+  <!-- LINE INTENSITY MAPPING -->
+  <div class="outreach-item">
+    <div class="outreach-item-text">
+      <h3>Line Intensity Mapping</h3><br>
+      <figure style="display:flex; align-items:center;">
+        <img src="LIM1.png" alt="LIM1 illustration" style="width:48%; height:auto; margin-right:1em;">
+        <img src="LIM2.png" alt="LIM2 illustration" style="width:48%; height:auto; margin-right:1em;">
+        <figcaption style="font-size:0.9em; color:#555; max-width:35%;">
+        On the left: relative difference in the matter power spectrum between &\Lambda;CDM (black) and models with self-interacting neutrinos, parameterized by the coupling Geff (from strong, red, to weak, teal; log10(Geff)=-5 is beyond the reach of CMB experiments). The red dot-dashed curve fixes all cosmological parameters to &\Lambda;CDM, while the solid one uses the CMB best fit; the gray line shows the effect of massive standard neutrinos. On the right: halo mass function. Scale-dependent changes in P(k) alter the abundance of halos in different mass ranges. Moderate and weak Geff values impact the halos in the mass range typical during the EoR. These halos host the first galaxies, implying strong sensitivity of the 21-cm signal to these models.
+        </figcaption>
+      </figure>
+      Line Intensity Mapping (LIM) surveys collect all incoming photons within a specific frequency band; rather than identifying resolved sources, their observables rely on the statistical analysis of <strong>intensity fluctuations</strong> across the observed map.<br> 
+      As a result, LIM offers unique advantages: it probes very high redshifts, captures the <strong>cumulative emission from faint</strong> and otherwise undetectable populations, 
+      <a href="https://arxiv.org/abs/2208.01658" target="_blank">indirectly traces matter distribution on small scales</a> (&asymp; 10 Mpc),
+      and remains sensitive to a broad range of physical processes, from the intergalactic and interstellar medium in its various phases, to 
+      <a href="https://arxiv.org/abs/2404.01500" target="_blank">exotic emission sources such as decaying dark matter</a>.<br><br>
+      
+      LIM surveys targeting star-forming lines can be used to probe large-scale structure, testing the underlying models of structure formation. LIM surveys are also sensitive to beyond-&Lambda;CDM scenarios, which can be tested using different summary statistics on LIM maps, 
+      for example, <a href="https://arxiv.org/abs/2305.06440" target="_blank">the voxel intensity distribution to detect signatures of primordial magnetic fields</a>, 
+      or by cross-correlating LIM maps with other observables, 
+      <a href="https://arxiv.org/abs/2412.04071" target="_blank">such as the CMB to test the sum of neutrino masses</a>.<br><br>
+      
+      At the same time, the 21-cm signal from the IGM is sensitive to cosmological components; for example, 
+      <a href="https://arxiv.org/abs/2504.15348" target="_blank">self-interacting neutrinos</a>, for which LIM can constrain models with weaker coupling strengths than current CMB experiments. <br>
+      The 21-cm signal is also sensitive to <a href="https://arxiv.org/abs/2310.03021" target="_blank">models of enhanched high-z star formation</a>, recently motivated by JWST observations.                                                                                                                                                                                                                                                                                                                   
+    </div>
+  </div>
+
+<br>
 
   <!-- GW -->
   <div class="outreach-item">
