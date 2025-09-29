@@ -294,7 +294,7 @@ ul.main-menu li a.active {
   display: flex;
   align-items: flex-start;
   gap: 20px;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .outreach-item p:last-child { margin-bottom: 0; /* remove extra bottom margin from last paragraph */ }
 .outreach-item-text {
