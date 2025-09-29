@@ -262,7 +262,7 @@ ul.main-menu li a.active {
   font-size: 1em;
 }
 .outreach-intro p:last-child {
-  margin-bottom: -5em; /* remove extra bottom margin from last paragraph */
+  margin-bottom: 0em; /* remove extra bottom margin from last paragraph */
 }
 .outreach-image {
   flex: 1;
@@ -307,14 +307,14 @@ ul.main-menu li a.active {
   flex: 1;
   text-align: center;
   align-self: flex-start; /* current default */
-  margin-top: 10px;       /* pushes it down */
+  margin-top: 0px;       /* pushes it down */
 }
 
 .outreach-item-image img {
   width: 80%;
   height: auto;
   border-radius: 4px;
-    margin-top: 10px; /* pushes the image down relative to text */
+    margin-top: 0px; /* pushes the image down relative to text */
 }
 .mobile-title { display: none; }
 
