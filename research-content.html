@@ -28,9 +28,8 @@
       How did the Universe come to be the way it is? How did it evolve from a state filled with <strong>neutral hydrogen</strong> after recombination to the richly structured cosmos we observe today, with galaxies scattered across vast distances and an intergalactic medium (IGM) that is mostly ionized? <br>
       I am particularly fascinated by what I like to call the "teenager Universe": the <strong>Cosmic Dawn</strong> (z < 30) and the <strong>Epoch of Reionization</strong> (EoR, z &asymp; 5-15). During this time, the radiation from the first galaxies altered the properties of the IGM, driving its phase transition. <br>
       To study these epochs, we can rely on two types of signals: the <strong>21-cm line</strong> emitted by neutral hydrogen in the IGM, and <strong>emission lines</strong> produced during star formation (e.g., CII, OIII, CO). The most powerful technique to observe them is <strong>line intensity mapping</strong> (LIM). <br><br>
-  
       To model these signals consistently, I recently released <a href="https://arxiv.org/abs/2507.15922" target="_blank">oLIMpus: a fully analytical effective model to study LIM auto- and cross-power spectra</a>. The code is fast and scalable, capable of generating 21-cm and line-intensity maps in seconds and 
-      can be found in <a href="https://github.com/slibanore/oLIMpus" target="_blank"> my GitHub page</a><\a>. Its flexible architecture allows extensions to lower redshifts, beyond-&Lambda;CDM cosmologies, and more complex astrophysical models informed by hydrodynamical simulations or observations. Its low computational cost makes it particularly suitable for exploring wide parameter spaces and performing MCMC analyses. <br>
+      can be found in <a href="https://github.com/slibanore/oLIMpus" target="_blank"> my GitHub page</a>. Its flexible architecture allows extensions to lower redshifts, beyond-&Lambda;CDM cosmologies, and more complex astrophysical models informed by hydrodynamical simulations or observations. Its low computational cost makes it particularly suitable for exploring wide parameter spaces and performing MCMC analyses. <br>
       Cross-correlation studies open new paths to investigate the EoR. One first application is the study of <a href="https://arxiv.org/abs/2509.08886" target="_blank">a new boundary condition on its onset</a>, based on the Pearson coefficient between maps. This approach provides a robust, model-independent signature of the earliest stages, when the very first ionized bubbles began to form.  
     </div>
   </div>
@@ -41,13 +40,13 @@
       <h3>Line Intensity Mapping</h3><br>
       <figure style="text-align:center;">
         <div style="display:flex; justify-content:center; gap:1em;">
-        <img src="LIM.png" alt="LIM illustration" style="width:33%; height:auto; margin-right:1em;">
-        <img src="LIM2.png" alt="LIM2 illustration" style="width:33%; height:auto; margin-right:1em;">
-        <img src="LIM3.png" alt="LIM3 illustration" style="width:33%; height:auto; margin-right:1em;">
+        <img src="LIM.png" alt="LIM illustration" style="width:34%; height:auto; margin-right:1em;">
+        <img src="LIM2.png" alt="LIM2 illustration" style="width:34%; height:auto; margin-right:1em;">
+        <img src="LIM3.png" alt="LIM3 illustration" style="width:34%; height:auto; margin-right:1em;">
         </div>
         <figcaption style="font-size:0.75em; color:#FFFFFF; margin-top:0.5em; max-width:90%; margin-left:auto; margin-right:auto; text-align:justify;">
         On the left: relative difference in the matter power spectrum between &Lambda;CDM (black) and models with self-interacting neutrinos, parameterized by the coupling Geff (from strong, red, to weak, teal; log10(Geff)=-5 is beyond the reach of CMB experiments). The red dot-dashed curve fixes all cosmological parameters to &\Lambda;CDM, while the solid one uses the CMB best fit; the gray line shows the effect of massive standard neutrinos. On the center: halo mass function. Scale-dependent changes in P(k) alter the abundance of halos in different mass ranges. Moderate and weak Geff values impact the halos in the mass range typical during the EoR. These halos host the first galaxies, implying strong sensitivity of the 21-cm signal to these models.
-        On the right: forecast constraints for HERA (observing 21-cm), CMB Stage 4 and their cross correlation on moderate self-interacting neutrinos. All other parameters but the sum of neutrino masses are marginalized over.
+        On the right: forecast constraints for HERA (observing 21-cm), CMB Stage 4 and their cross correlation on moderate self-interacting neutrinos. All parameters but the sum of neutrino masses are marginalized over.
         </figcaption>
       </figure>
       Line Intensity Mapping (LIM) surveys collect all incoming photons within a specific frequency band; rather than identifying resolved sources, their observables rely on the statistical analysis of <strong>intensity fluctuations</strong> across the observed map.<br> 
