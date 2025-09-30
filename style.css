@@ -539,6 +539,14 @@ ul.main-menu li a.active {
   .social-links a {
     display: inline-block;
   }
+
+    #back-to-top {
+    bottom: 15px;
+    right: 15px;
+    padding: 10px 12px;
+    font-size: 1.6rem;
+  }
+  
 }
 
 /* ======= TABLETS & SMALL LAPTOP WINDOWS ======= */
