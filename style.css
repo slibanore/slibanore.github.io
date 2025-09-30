@@ -419,6 +419,8 @@ ul.main-menu li a.active {
     width: 80%;
     max-width: 150px;
     height: auto;
+    display: block;     /* make it behave like a block */
+    margin: 0 auto;     /* center horizontally */
   }
 
   .outreach-item-image a {
