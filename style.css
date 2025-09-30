@@ -625,20 +625,7 @@ ul.main-menu li a.active {
   margin-bottom: 5px; /* reduce space between paragraphs */
 }
 
-  .outreach-image {
-  display: flex;
-  justify-content: center;  /* center children horizontally */
-  width: 100%;              /* full width to allow centering */
-  margin: 0 auto;           /* optional, ensures the container itself is centered */
-}
-
-.outreach-image img {
-  width: 50%;
-  max-width: 400px;         /* optional: limit max size */
-  height: auto;
-  border-radius: 8px;
-  display: block;            /* important for margin auto to work */
-}
+.outreach-intro { width: 100%; margin-bottom: 5px; }
 
   /* Menu: centered horizontally */
   #page-wrapper {
