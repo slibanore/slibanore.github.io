@@ -452,7 +452,7 @@ ul.main-menu li a.active {
 }
 
   .outreach-image img {
-    width: 50%;
+    width: 40%;
     height: auto;
     border-radius: 8px;
     display: block;     /* make it behave like a block */
