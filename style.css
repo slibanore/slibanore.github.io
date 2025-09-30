@@ -473,6 +473,9 @@ ul.main-menu li a.active {
     width: 95%;       /* not full screen, just a bit inset */
     margin: 0 auto;   /* center it */
   }
+.outreach-item-text p {
+  margin-bottom: 5px; /* reduce space between paragraphs */
+}
 
   .outreach-item figure img {
     width: 100%;
@@ -488,7 +491,6 @@ ul.main-menu li a.active {
   align-items: center;      /* center both horizontally */
   text-align: center;       /* center text content */
   margin: 0 auto;
-  margin-top: 5px;
 }
 
 .outreach-item-image img {
@@ -619,6 +621,9 @@ ul.main-menu li a.active {
     width: 100%;
     height: auto;
   }
+.outreach-item-text p {
+  margin-bottom: 5px; /* reduce space between paragraphs */
+}
 
   .outreach-item-image {
   display: flex;
@@ -626,7 +631,6 @@ ul.main-menu li a.active {
   align-items: center;      /* center both horizontally */
   text-align: center;       /* center text content */
   margin: 0 auto;
-    margin-top: 5px;
 }
 
 .outreach-item-image img {
