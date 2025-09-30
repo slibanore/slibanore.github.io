@@ -309,11 +309,19 @@ ul.main-menu li a.active {
   text-justify: inter-word;
 }
 
+.outreach-item-image {
+  flex: 1;
+  text-align: justify;
+  text-justify: inter-word;
+  align-self: flex-start; /* current default */
+  margin-top: 70px;       /* pushes it down */
+}
+
 .outreach-item-image img {
   width: 80%;
   height: auto;
   border-radius: 4px;
-    margin-top: 150px; /* pushes the image down relative to text */
+    margin-top: 70px; /* pushes the image down relative to text */
 }
 
 .icon {
@@ -452,6 +460,7 @@ ul.main-menu li a.active {
   width: 80%;
   max-width: 150px;
   height: auto;
+  margin-top: 5px; /* pushes the image down relative to text */
 }
   
 
