@@ -357,7 +357,7 @@ ul.main-menu li a.active {
     padding: 10px;
     flex-direction: row;
     justify-content: center;
-    gap: 9px;
+    gap: 7px;
   }
 
   ul.main-menu li {
