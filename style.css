@@ -427,6 +427,24 @@ ul.main-menu li a.active {
     text-justify: inter-word;
     margin-bottom: 5px;
   }
+
+   .outreach-item figure figcaption {
+    max-width: 95%;   /* keeps text readable */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.75em;
+  }
+  
+  .outreach-item figure {
+    width: 95%;       /* not full screen, just a bit inset */
+    margin: 0 auto;   /* center it */
+  }
+
+  .outreach-item figure img {
+    width: 100%;
+    height: auto;
+  }
+  
   .outreach-item p:last-child { margin-bottom: 0; }
 
   .outreach-item-image img {
