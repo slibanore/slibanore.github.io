@@ -311,7 +311,7 @@ ul.main-menu li a.active {
 
 .outreach-item-image {
   flex: 1;
-  text-align: justify;
+  text-align: center;
   text-justify: inter-word;
   align-self: flex-start; /* current default */
   margin-top: 70px;       /* pushes it down */
