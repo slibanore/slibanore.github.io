@@ -414,9 +414,10 @@ ul.main-menu li a.active {
   .outreach-item p:last-child { margin-bottom: 0; }
 
   .outreach-item-image img {
-    width: 60%;
+    width: 50%;
     max-width: 150px;
     height: auto;
+    margin: 0;
   }
 
   .outreach-item-image a {
