@@ -305,7 +305,7 @@ ul.main-menu li a.active {
 
 .outreach-item-image {
   flex: 1;
-  text-align: center;
+  text-align: justify;;
   align-self: flex-start; /* current default */
   margin-top: 70px;       /* pushes it down */
 }
@@ -327,7 +327,7 @@ ul.main-menu li a.active {
   header {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: justify;;
     margin: 0; /* ✅ align flush */
     width: 100%; 
     max-width: 100%;
@@ -338,7 +338,7 @@ ul.main-menu li a.active {
   .header-text {
     margin-left: 0;
     margin-top: 15px;
-    text-align: center;
+    text-align: justify;;
   }
 
   header img {
@@ -381,7 +381,7 @@ ul.main-menu li a.active {
   .outreach-intro-wrapper {
     flex-direction: column-reverse;
     align-items: center;
-    text-align: center;
+    text-align: justify;;
     gap: 15px;
   }
 
@@ -400,7 +400,7 @@ ul.main-menu li a.active {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: justify;;
     margin-bottom: 5px;
   }
   .outreach-item p:last-child { margin-bottom: 0; }
@@ -414,13 +414,13 @@ ul.main-menu li a.active {
   .outreach-item-image a {
     display: inline-block;
     margin-top: 0px;
-    text-align: center;
+    text-align: justify;;
   }
 
   .outreach-wrapper {
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: justify;;
     margin-bottom: 10px;
   }
 
@@ -435,6 +435,6 @@ ul.main-menu li a.active {
     padding: 15px;
     background: transparent; /* ✅ consistent background */
     box-sizing: border-box;
-    text-align: center;
+    text-align: justify;;
   }  
 }
