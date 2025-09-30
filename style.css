@@ -354,25 +354,25 @@ ul.main-menu li a.active {
 .mobile-title { display: none; }
 
 #back-to-top {
-  position: fixed;        /* stay in one place */
-  bottom: 30px;           /* distance from bottom */
-  right: 30px;            /* distance from right */
-  z-index: 100;           /* above all content */
+  position: fixed;
+  bottom: 30px;          /* distance from bottom */
+  left: 30px;            /* bottom left */
+  z-index: 100;
   background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
-  color: #fff;            /* white arrow */
+  color: #fff;
   border: none;
   padding: 12px 16px;
-  border-radius: 50%;     /* round button */
+  border-radius: 50%;
   font-size: 2rem;
   cursor: pointer;
-  display: none;          /* hidden by default */
+  display: none;         /* hidden by default */
   box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
   transition: background 0.3s, transform 0.2s;
 }
 
 #back-to-top:hover {
-  background-color: rgba(187, 221, 212, 0.6); /* slightly stronger on hover */
-  transform: translateY(-2px);                /* subtle lift */
+  background-color: rgba(187, 221, 212, 0.6);
+  transform: translateY(-2px);
 }
 
 
@@ -540,11 +540,14 @@ ul.main-menu li a.active {
     display: inline-block;
   }
 
-    #back-to-top {
-    bottom: 15px;
-    right: 15px;
+  #back-to-top {
+    top: 10px;           /* distance from top */
+    bottom: auto;        /* override bottom */
+    left: 50%;           /* center horizontally */
+    transform: translateX(-50%); /* true center */
     padding: 10px 12px;
     font-size: 1.6rem;
+    border-radius: 8px;  /* slightly different style for mobile */
   }
   
 }
@@ -578,4 +581,14 @@ ul.main-menu li a.active {
   ul.main-menu li a {
     font-size: clamp(1.4rem, 1vw + 1rem, 2rem);
   }
+    #back-to-top {
+    top: 10px;           /* distance from top */
+    bottom: auto;        /* override bottom */
+    left: 50%;           /* center horizontally */
+    transform: translateX(-50%); /* true center */
+    padding: 10px 12px;
+    font-size: 1.6rem;
+    border-radius: 8px;  /* slightly different style for mobile */
+  }
+
 }
