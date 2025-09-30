@@ -185,9 +185,10 @@ header,
 #content,
 footer,
 .outreach-conclusion {
-  width: 90%;        /* all main blocks same width */
-  max-width: 1200px; /* limit on very wide monitors */
-  margin: 0 auto;    /* center horizontally */
+  width: 90%;
+  max-width: 1200px;
+  margin: 0;            /* ❌ remove auto centering */
+  margin-left: 20px;    /* ✅ same offset as your old layout */
   box-sizing: border-box;
 }
 
@@ -391,7 +392,7 @@ ul.main-menu li a.active {
   }
 
   ul.main-menu li a {
-    font-size: 1.4rem;
+    font-size: clamp(1.4rem, 1vw + 1rem, 2rem);
   }
   
   #content {
