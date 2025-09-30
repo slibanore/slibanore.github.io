@@ -133,8 +133,6 @@ header {
   margin-left: 20px;
   margin-right: auto;
   box-sizing: border-box;
-  width: calc(1000px + 200px);
-  max-width: calc(1000px + 200px);
 }
 
 /* Make text area vertical inside header */
@@ -147,8 +145,6 @@ header {
 
 /* Content only (not header) is limited */
 #content {
-  width: 1000px;
-  max-width: 1000px;
   padding: 25px;
   background: rgba(187, 221, 212, 0.3);
   color: #FFFFFF;
@@ -182,8 +178,17 @@ footer {
   width: 100%;        
   margin: 20px;          
   box-sizing: border-box; 
-  width: calc(1000px + 200px);
-  max-width: calc(1000px + 200px);
+}
+
+/* ======= UNIFY WIDTHS (ALL SCREENS) ======= */
+header,
+#content,
+footer,
+.outreach-conclusion {
+  width: 90%;        /* all main blocks same width */
+  max-width: 1200px; /* limit on very wide monitors */
+  margin: 0 auto;    /* center horizontally */
+  box-sizing: border-box;
 }
 
 iframe {
@@ -286,8 +291,6 @@ ul.main-menu li a.active {
   padding: 25px;
   background: transparent; /* same as header/content/footer */
   color: #fff;
-  width: calc(1000px + 200px);   /* match content width */
-  max-width: 100%;
   margin-left: 20px;
   box-sizing: border-box;
   text-align: justify;
