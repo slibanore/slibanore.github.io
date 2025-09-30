@@ -270,6 +270,7 @@ ul.main-menu li a.active {
   flex: 1;
   align-self: flex-start; /* current default */
   margin-top: 20px;       /* pushes it down */
+  text-align: center;
 }
 
 .outreach-image img {
@@ -459,7 +460,6 @@ ul.main-menu li a.active {
 
 .outreach-item-image img {
     display: block;
-  margin: 0 auto;  /* centers image in normal flow */
   width: 80%;
   max-width: 150px;
   height: auto;
