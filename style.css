@@ -555,18 +555,27 @@ ul.main-menu li a.active {
     align-items: center;
   }
 
+ /* Menu spans full width and distributes items evenly */
   ul.main-menu {
     width: 100%;
-    padding: 10px;
+    padding: 0;
     flex-direction: row;
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-around; /* spreads items across full width */
+    gap: 0; /* spacing handled by space-around */
   }
 
+  ul.main-menu li {
+    margin-bottom: 0;
+    margin-right: 0;
+    flex: 1; /* optional: make each menu item take equal space */
+    text-align: center;
+  }
+
+  /* Responsive font that adapts to screen width */
   ul.main-menu li a {
-    font-size: 1.3rem;
+    font-size: clamp(1.1rem, 2vw, 1.4rem); /* min 1.1rem, max 1.4rem, scales with viewport */
   }
-
+  
   #content, footer {
     width: 100%;
     max-width: 100%;
