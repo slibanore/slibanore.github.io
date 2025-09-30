@@ -627,8 +627,13 @@ ul.main-menu li a.active {
   margin-bottom: 5px; /* reduce space between paragraphs */
 }
 
-  .outreach-item-image img {
+.outreach-item-image img {
+  display: block;
+  width: 80%;
+  max-width: 150px;
+  height: auto;
     margin-top: 10px; /* pushes the image down relative to text */
+
 }
   
 .outreach-intro { width: 100%; margin-bottom: 5px; }
