@@ -510,4 +510,31 @@ ul.main-menu li a.active {
   }
 }
 
+/* ======= TABLETS & SMALL LAPTOP WINDOWS ======= */
+@media (min-width: 769px) and (max-width: 1200px) {
+  header, #content, footer, .outreach-conclusion {
+    width: 100%;       /* take full width of the window */
+    max-width: 100%;   /* don’t exceed viewport */
+    margin: 0 auto;    /* center */
+    padding: 20px;     /* lighter padding */
+    box-sizing: border-box;
+  }
 
+  /* Scale down header image/logo */
+  .logo {
+    max-width: 120px;
+  }
+
+  /* Scale down content images */
+  .outreach-image img,
+  .outreach-item-image img {
+    width: 70%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  /* Slightly smaller font */
+  body {
+    font-size: 1.7em;
+  }
+}
