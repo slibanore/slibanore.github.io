@@ -181,6 +181,23 @@
 
     <!-- Load additional JS scripts here -->
     <script type="text/javascript" src="script.js"></script>
+
     <button id="back-to-top" title="Go to top">↑</button>
+  
+  <script>
+    const backToTop = document.getElementById('back-to-top');
+
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 200) {
+        backToTop.style.display = "block";
+      } else {
+        backToTop.style.display = "none";
+      }
+    });
+
+    backToTop.addEventListener('click', function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
   </body>
 </html>
