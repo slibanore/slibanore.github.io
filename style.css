@@ -622,6 +622,7 @@ ul.main-menu li a.active {
   .outreach-item figure img {
     width: 100%;
     height: auto;
+    left: 30%;
   }
 
   
