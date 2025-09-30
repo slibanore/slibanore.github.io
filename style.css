@@ -398,9 +398,11 @@ ul.main-menu li a.active {
   }
 
   .outreach-image img {
-    width: 70%;
+    width: 50%;
     height: auto;
     border-radius: 8px;
+    display: block;     /* make it behave like a block */
+    margin: 0 auto;     /* center horizontally */
   }
 
   .outreach-item {
@@ -414,17 +416,14 @@ ul.main-menu li a.active {
   .outreach-item p:last-child { margin-bottom: 0; }
 
   .outreach-item-image img {
-    width: 50%;
+    width: 80%;
     max-width: 150px;
     height: auto;
-    margin: 0;
   }
 
   .outreach-item-image a {
     display: inline-block;
     margin-top: 0px;
-    text-align: justify;
-    text-justify: inter-word;
   }
 
   .outreach-wrapper {
