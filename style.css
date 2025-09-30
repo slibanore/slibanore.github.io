@@ -456,6 +456,7 @@ ul.main-menu li a.active {
   flex-direction: column;   /* stack image + text vertically */
   align-items: center;      /* center both horizontally */
   text-align: center;       /* center text content */
+  margin: 0 auto;
 }
 
 .outreach-item-image img {
@@ -463,7 +464,6 @@ ul.main-menu li a.active {
   width: 80%;
   max-width: 150px;
   height: auto;
-  margin: 0 auto;
 }
   
 
