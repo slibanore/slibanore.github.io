@@ -497,7 +497,7 @@ ul.main-menu li a.active {
 
   .social-links {
     display: flex;
-    text-align: center;
+    justify-content: center;  /* center horizontally */
     align-items: center;
     flex-wrap: wrap;
     gap: 12px;
