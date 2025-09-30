@@ -445,6 +445,12 @@ ul.main-menu li a.active {
     margin-bottom: 5px;
   }
 
+    .outreach-image {
+  display: flex;               /* turn container into flex */
+  justify-content: center;     /* center its children (the img) horizontally */
+  width: 100%;                 /* make sure container spans full width */
+}
+
   .outreach-image img {
     width: 50%;
     height: auto;
@@ -600,7 +606,7 @@ ul.main-menu li a.active {
 }
 
   .outreach-image img {
-    width: 50%;
+    width: 70%;
     height: auto;
     border-radius: 8px;
     display: block;     /* make it behave like a block */
