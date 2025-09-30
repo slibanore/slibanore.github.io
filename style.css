@@ -474,7 +474,7 @@ ul.main-menu li a.active {
     margin: 0 auto;   /* center it */
   }
 .outreach-item-text p {
-  margin-bottom: 5px; /* reduce space between paragraphs */
+  margin-bottom: 0px; /* reduce space between paragraphs */
 }
 
   .outreach-item figure img {
@@ -594,7 +594,6 @@ ul.main-menu li a.active {
     border-radius: 8px;
     display: block;     /* make it behave like a block */
     margin: 0 auto;     /* center horizontally */
-    margin-top: -10px;
   }
 
   .outreach-item {
