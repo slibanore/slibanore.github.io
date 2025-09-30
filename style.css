@@ -572,6 +572,28 @@ ul.main-menu li a.active {
     margin: 0 auto;    /* center */
     box-sizing: border-box;
   }
+  .outreach-intro-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: justify;
+    text-justify: inter-word;
+    gap: 15px;
+  }
+
+  .outreach-intro {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .outreach-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    display: block;     /* make it behave like a block */
+    margin: 0 auto;     /* center horizontally */
+  }
+
 
   .outreach-item-image {
   display: flex;
