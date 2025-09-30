@@ -450,12 +450,19 @@ ul.main-menu li a.active {
   }
   
   .outreach-item p:last-child { margin-bottom: 0; }
-
+  .outreach-item-image {
+    display: flex;
+    flex-direction: column;   /* stack image + text vertically */
+    align-items: center;      /* center both horizontally */
+    text-align: center;       /* center text content */
+  }
+  
   .outreach-item-image img {
     width: 80%;
     max-width: 150px;
     height: auto;
   }
+  
 
   .outreach-wrapper {
     flex-direction: column;
