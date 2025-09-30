@@ -583,21 +583,7 @@ ul.main-menu li a.active {
   }
 }
 
-/* Tablets / small screens before mobile */
-@media (max-width: 850px) {
-  header img, .logo {
-    max-width: 120px;
-  }
 
-  .outreach-item-image img,
-  .outreach-image img {
-    max-width: 200px;
-  }
-
-  .outreach-intro, .outreach-item-text {
-    font-size: 0.85em;
-  }
-}
 
 
 }
