@@ -356,7 +356,7 @@ ul.main-menu li a.active {
 #back-to-top {
   position: fixed;
   bottom: 30px;          /* distance from bottom */
-  left: 90px;            /* bottom left */
+  left: 80px;            /* bottom left */
   z-index: 100;
   background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
   color: #fff;
