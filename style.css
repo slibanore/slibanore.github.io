@@ -399,6 +399,7 @@ ul.main-menu li a.active {
   }
 
   .outreach-intro-wrapper {
+    display: flex;
     flex-direction: column-reverse;
     align-items: center;
     text-align: justify;
@@ -421,7 +422,7 @@ ul.main-menu li a.active {
 
   .outreach-item {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     text-align: justify;
     text-justify: inter-word;
