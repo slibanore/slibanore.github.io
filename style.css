@@ -512,29 +512,33 @@ ul.main-menu li a.active {
 
 /* ======= TABLETS & SMALL LAPTOP WINDOWS ======= */
 @media (min-width: 769px) and (max-width: 1200px) {
-  header, #content, footer, .outreach-conclusion {
-    width: 100%;       /* take full width of the window */
-    max-width: 100%;   /* don’t exceed viewport */
-    margin: 0 auto;    /* center */
-    padding: 20px;     /* lighter padding */
+  /* Center the whole page-wrapper content */
+  #page-wrapper {
+    flex-direction: column;   /* stack menu on top of content */
+    align-items: center;      /* center horizontally */
+  }
+
+  ul.main-menu {
+    width: 100%;              /* stretch across page */
+    padding: 10px 0;
+    flex-direction: row;      /* horizontal menu */
+    justify-content: center;  /* center items */
+    gap: 15px;                /* spacing between items */
     box-sizing: border-box;
   }
 
-  /* Scale down header image/logo */
-  .logo {
-    max-width: 120px;
+  ul.main-menu li {
+    margin: 0; /* remove left margin */
   }
 
-  /* Scale down content images */
-  .outreach-image img,
-  .outreach-item-image img {
-    width: 70%;
-    max-width: 300px;
-    height: auto;
+  ul.main-menu li a {
+    font-size: 1.4rem;
   }
 
-  /* Slightly smaller font */
-  body {
-    font-size: 1.7em;
+  /* Make content adapt under the centered menu */
+  #content {
+    width: 90%;
+    max-width: 100%;
+    margin: 20px auto;
   }
 }
