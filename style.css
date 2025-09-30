@@ -573,6 +573,20 @@ ul.main-menu li a.active {
     box-sizing: border-box;
   }
 
+  .outreach-item-image {
+  display: flex;
+  flex-direction: column;   /* stack image + text vertically */
+  align-items: center;      /* center both horizontally */
+  text-align: center;       /* center text content */
+  margin: 0 auto;
+}
+
+.outreach-item-image img {
+  display: block;
+  width: 80%;
+  max-width: 150px;
+  height: auto;
+}
   /* Menu: centered horizontally */
   #page-wrapper {
     flex-direction: column;
