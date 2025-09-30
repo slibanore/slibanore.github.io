@@ -342,6 +342,7 @@ ul.main-menu li a.active {
   }
 
   .header-text {
+    text-align: center;
     margin-left: 0;
     margin-top: 15px;
   }
