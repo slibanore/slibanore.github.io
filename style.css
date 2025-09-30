@@ -463,6 +463,7 @@ ul.main-menu li a.active {
   width: 80%;
   max-width: 150px;
   height: auto;
+  margin: 0 auto;
 }
   
 
