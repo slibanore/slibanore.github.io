@@ -544,7 +544,7 @@ ul.main-menu li a.active {
     top: 10px;           /* distance from top */
     bottom: auto;        /* override bottom */
     left: 50%;           /* center horizontally */
-    transform: translateX(-50%); /* true center */
+    transform: translateX(-50%,0); /* true center */
   z-index: 100;
   background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
   color: #fff;
