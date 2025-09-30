@@ -323,6 +323,20 @@ ul.main-menu li a.active {
   border-radius: 4px;
     margin-top: 70px; /* pushes the image down relative to text */
 }
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 8px;
+  vertical-align: middle;
+}
+
+/* Social links row */
+.social-links {
+  margin-top: 10px;
+}
+
+
 .mobile-title { display: none; }
 
 
@@ -450,4 +464,22 @@ ul.main-menu li a.active {
     text-align: justify;
     text-justify: inter-word;
   }  
+
+    .email-line {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .social-links a {
+    display: inline-block;
+  }
+}
+
 }
