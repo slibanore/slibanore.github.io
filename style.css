@@ -625,20 +625,21 @@ ul.main-menu li a.active {
   margin-bottom: 5px; /* reduce space between paragraphs */
 }
 
-  .outreach-item-image {
+  .outreach-image {
   display: flex;
-  flex-direction: column;   /* stack image + text vertically */
-  align-items: center;      /* center both horizontally */
-  text-align: center;       /* center text content */
-  margin: 0 auto;
+  justify-content: center;  /* center children horizontally */
+  width: 100%;              /* full width to allow centering */
+  margin: 0 auto;           /* optional, ensures the container itself is centered */
 }
 
-.outreach-item-image img {
-  display: block;
-  width: 80%;
-  max-width: 150px;
+.outreach-image img {
+  width: 50%;
+  max-width: 400px;         /* optional: limit max size */
   height: auto;
+  border-radius: 8px;
+  display: block;            /* important for margin auto to work */
 }
+
   /* Menu: centered horizontally */
   #page-wrapper {
     flex-direction: column;
