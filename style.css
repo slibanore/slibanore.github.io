@@ -474,12 +474,13 @@ ul.main-menu li a.active {
     margin: 0 auto;   /* center it */
   }
 .outreach-item-text p {
-  margin-bottom: 0px; /* reduce space between paragraphs */
+  margin-bottom: 5px; /* reduce space between paragraphs */
 }
 
   .outreach-item figure img {
     width: 100%;
     height: auto;
+    margin-top: 10px;
   }
   
   .outreach-item p:last-child { margin-bottom: 0; }
