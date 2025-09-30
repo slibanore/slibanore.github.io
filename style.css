@@ -361,9 +361,9 @@ ul.main-menu li a.active {
   background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
   color: #fff;
   border: none;
-  padding: 12px 16px;
-  border-radius: 50%;
-  font-size: 2rem;
+  font-size: 2.8rem;         /* bigger arrow */
+  padding: 16px 20px;        /* larger button area */
+  border-radius: 50%;         /* keep it circular */
   cursor: pointer;
   display: none;         /* hidden by default */
   box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
@@ -545,13 +545,13 @@ ul.main-menu li a.active {
     bottom: auto;        /* override bottom */
     left: 50%;           /* center horizontally */
     transform: translateX(-50%); /* true center */
-    padding: 10px 12px;
   z-index: 100;
   background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
   color: #fff;
   border: none;
-  border-radius: 50%;
-  font-size: 2rem;
+  font-size: 2.8rem;         /* bigger arrow */
+  padding: 16px 20px;        /* larger button area */
+  border-radius: 50%;         /* keep it circular */
   cursor: pointer;
   display: none;         /* hidden by default */
   box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
@@ -596,13 +596,13 @@ ul.main-menu li a.active {
     bottom: auto;        /* override bottom */
     left: 50%;           /* center horizontally */
     transform: translateX(-50%); /* true center */
-    padding: 10px 12px;
   z-index: 100;
   background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
   color: #fff;
   border: none;
-  border-radius: 50%;
-  font-size: 2rem;
+  font-size: 2.8rem;         /* bigger arrow */
+  padding: 16px 20px;        /* larger button area */
+  border-radius: 50%;         /* keep it circular */
   cursor: pointer;
   display: none;         /* hidden by default */
   box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
