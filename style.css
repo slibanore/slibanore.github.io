@@ -555,7 +555,7 @@ ul.main-menu li a.active {
     align-items: center;
   }
 
- /* Menu spans full width and distributes items evenly */
+  /* Menu spans full width and distributes items evenly */
   ul.main-menu {
     width: 100%;
     padding: 0;
@@ -575,7 +575,7 @@ ul.main-menu li a.active {
   ul.main-menu li a {
     font-size: clamp(1.1rem, 2vw, 1.4rem); /* min 1.1rem, max 1.4rem, scales with viewport */
   }
-  
+
   #content, footer {
     width: 100%;
     max-width: 100%;
@@ -592,7 +592,3 @@ ul.main-menu li a.active {
   }
 }
 
-
-
-
-}
