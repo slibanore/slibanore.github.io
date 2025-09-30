@@ -497,10 +497,12 @@ ul.main-menu li a.active {
 
   .social-links {
     display: flex;
-    justify-content: center;  /* center horizontally */
+    justify-content: center; /* center items horizontally */
     align-items: center;
     flex-wrap: wrap;
     gap: 12px;
+    width: 100%;       /* full width of parent */
+    margin: 0 auto;    /* center if parent has auto margins */
   }
 
   .social-links a {
