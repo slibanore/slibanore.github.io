@@ -457,6 +457,7 @@ ul.main-menu li a.active {
   align-items: center;      /* center both horizontally */
   text-align: center;       /* center text content */
   margin: 0 auto;
+  margin-top:0;
 }
 
 .outreach-item-image img {
