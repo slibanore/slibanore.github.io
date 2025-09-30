@@ -594,6 +594,7 @@ ul.main-menu li a.active {
     border-radius: 8px;
     display: block;     /* make it behave like a block */
     margin: 0 auto;     /* center horizontally */
+    margin-top: -10px;
   }
 
   .outreach-item {
