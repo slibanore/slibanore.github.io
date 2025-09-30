@@ -623,8 +623,18 @@ ul.main-menu li a.active {
     width: 100%;
     height: auto;
   }
+
+  
 .outreach-item-text p {
   margin-bottom: 5px; /* reduce space between paragraphs */
+}
+
+.outreach-item-image {
+  display: flex;
+  flex-direction: column;   /* stack image + text vertically */
+  align-items: center;      /* center both horizontally */
+  text-align: center;       /* center text content */
+  margin: 0 auto;
 }
 
 .outreach-item-image img {
