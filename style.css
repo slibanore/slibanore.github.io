@@ -543,7 +543,7 @@ ul.main-menu li a.active {
   #back-to-top {
     top: 10px;           /* distance from top */
     bottom: auto;        /* override bottom */
-    left: 50%;           /* center horizontally */
+    left: 40%;           /* center horizontally */
   z-index: 100;
   background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
   color: #fff;
@@ -629,7 +629,7 @@ ul.main-menu li a.active {
   #back-to-top {
     top: 10px;           /* distance from top */
     bottom: auto;        /* override bottom */
-    left: 50%;           /* center horizontally */
+    left: 40%;           /* center horizontally */
   z-index: 100;
   background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
   color: #fff;
