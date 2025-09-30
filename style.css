@@ -589,6 +589,15 @@ ul.main-menu li a.active {
     width: 100%;
     margin-bottom: 5px;
   }
+  .outreach-intro p:last-child {
+    margin-bottom: 0;
+  }
+
+  .outreach-image {
+  display: flex;               /* turn container into flex */
+  justify-content: center;     /* center its children (the img) horizontally */
+  width: 100%;                 /* make sure container spans full width */
+}
 
   .outreach-image img {
     width: 50%;
@@ -622,7 +631,6 @@ ul.main-menu li a.active {
   .outreach-item figure img {
     width: 100%;
     height: auto;
-    left: 30%;
   }
 
   
@@ -647,7 +655,6 @@ ul.main-menu li a.active {
 
 }
   
-.outreach-intro { width: 100%; margin-bottom: 5px; }
 
   /* Menu: centered horizontally */
   #page-wrapper {
