@@ -554,12 +554,12 @@ ul.main-menu li a.active {
 
  #back-to-top {
   position: fixed;
-  bottom: 20px;              /* distance from bottom */
+  bottom: 30px;              /* distance from bottom */
   top: auto;                 /* disable top positioning */
-  left: 43%;                 /* center horizontally */
+  right: 10%;                 
   transform: translateX(-50%); /* perfect centering */
   z-index: 100;
-  background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
+  background-color: rgba(187, 221, 212, 0.5); /* match header/footer */
   color: #fff;
   border: 2px solid rgba(0,0,0,0.3); /* subtle black/gray border */
   font-size: 2.8rem;           /* bigger arrow */
@@ -687,13 +687,12 @@ ul.main-menu li a.active {
 
  #back-to-top {
   position: fixed;
-  bottom: 20px;              /* distance from bottom */
+  bottom: 30px;              /* distance from bottom */
   top: auto;                 /* disable top positioning */
-  left: 43%;                 /* center horizontally */
+  right: 10%;                 
   transform: translateX(-50%); /* perfect centering */
   z-index: 100;
-
-  background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
+  background-color: rgba(187, 221, 212, 0.5); /* match header/footer */
   color: #fff;
   border: 2px solid rgba(0,0,0,0.3); /* subtle black/gray border */
   font-size: 2.8rem;           /* bigger arrow */
