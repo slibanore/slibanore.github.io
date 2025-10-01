@@ -362,6 +362,7 @@ ul.main-menu li a.active {
   color: #fff;
   border: none;
   font-size: 2.8rem;         /* bigger arrow */
+     font-weight:900;
   padding: 16px 20px;        /* larger button area */
   border-radius: 50%;         /* keep it circular */
   cursor: pointer;
@@ -551,22 +552,26 @@ ul.main-menu li a.active {
     display: inline-block;
   }
 
-  #back-to-top {
-    top: 10px;           /* distance from top */
-    bottom: auto;        /* override bottom */
-    left: 45%;           /* center horizontally */
+ #back-to-top {
+  position: fixed;
+  bottom: 20px;              /* distance from bottom */
+  top: auto;                 /* disable top positioning */
+  left: 43%;                 /* center horizontally */
+  transform: translateX(-50%); /* perfect centering */
   z-index: 100;
   background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
   color: #fff;
-  border: none;
-  font-size: 2.8rem;         /* bigger arrow */
-  padding: 16px 20px;        /* larger button area */
-  border-radius: 50%;         /* keep it circular */
+  border: 2px solid rgba(0,0,0,0.3); /* subtle black/gray border */
+  font-size: 2.8rem;           /* bigger arrow */
+   font-weight:900;
+  padding: 16px 20px;          /* larger button area */
+  border-radius: 50%;          /* keep it circular */
   cursor: pointer;
-  display: none;         /* hidden by default */
+  display: none;               /* hidden by default */
   box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
   transition: background 0.3s, transform 0.2s;
 }
+
 
   
 }
@@ -680,19 +685,23 @@ ul.main-menu li a.active {
     font-size: clamp(1.4rem, 1vw + 1rem, 2rem);
   }
 
-  #back-to-top {
-    top: 10px;           /* distance from top */
-    bottom: auto;        /* override bottom */
-    left: 45%;           /* center horizontally */
+ #back-to-top {
+  position: fixed;
+  bottom: 20px;              /* distance from bottom */
+  top: auto;                 /* disable top positioning */
+  left: 43%;                 /* center horizontally */
+  transform: translateX(-50%); /* perfect centering */
   z-index: 100;
+
   background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
   color: #fff;
-  border: none;
-  font-size: 2.8rem;         /* bigger arrow */
-  padding: 16px 20px;        /* larger button area */
-  border-radius: 50%;         /* keep it circular */
+  border: 2px solid rgba(0,0,0,0.3); /* subtle black/gray border */
+  font-size: 2.8rem;           /* bigger arrow */
+   font-weight:900;
+  padding: 16px 20px;          /* larger button area */
+  border-radius: 50%;          /* keep it circular */
   cursor: pointer;
-  display: none;         /* hidden by default */
+  display: none;               /* hidden by default */
   box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
   transition: background 0.3s, transform 0.2s;
 }
