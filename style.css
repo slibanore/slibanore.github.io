@@ -552,19 +552,21 @@ ul.main-menu li a.active {
     display: inline-block;
   }
 
- #back-to-top {
+  #back-to-top {
   position: fixed;
-  bottom: 30px;              /* distance from bottom */
   top: auto;                 /* disable top positioning */
-  right: 10%;                 
-  transform: translateX(-50%); /* perfect centering */
+bottom: 30px;
+right: 30px;
+transform: none;   /* remove this */
   z-index: 100;
   background-color: rgba(187, 221, 212, 0.5); /* match header/footer */
   color: #fff;
   border: 2px solid rgba(0,0,0,0.3); /* subtle black/gray border */
   font-size: 2.8rem;           /* bigger arrow */
    font-weight:900;
-  padding: 16px 20px;          /* larger button area */
+width: 70px;
+height: 70px;
+padding: 0;          /* let width/height define size */
   border-radius: 50%;          /* keep it circular */
   cursor: pointer;
   display: none;               /* hidden by default */
@@ -687,17 +689,19 @@ ul.main-menu li a.active {
 
  #back-to-top {
   position: fixed;
-  bottom: 30px;              /* distance from bottom */
   top: auto;                 /* disable top positioning */
-  right: 10%;                 
-  transform: translateX(-50%); /* perfect centering */
+bottom: 30px;
+right: 30px;
+transform: none;   /* remove this */
   z-index: 100;
   background-color: rgba(187, 221, 212, 0.5); /* match header/footer */
   color: #fff;
   border: 2px solid rgba(0,0,0,0.3); /* subtle black/gray border */
   font-size: 2.8rem;           /* bigger arrow */
    font-weight:900;
-  padding: 16px 20px;          /* larger button area */
+width: 70px;
+height: 70px;
+padding: 0;          /* let width/height define size */
   border-radius: 50%;          /* keep it circular */
   cursor: pointer;
   display: none;               /* hidden by default */
