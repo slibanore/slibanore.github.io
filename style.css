@@ -358,7 +358,7 @@ ul.main-menu li a.active {
   bottom: 30px;          /* distance from bottom */
   left: 70px;            /* bottom left */
   z-index: 100;
-  background-color: rgba(187, 221, 212, 0.3); /* match header/footer */
+  background-color: rgba(187, 221, 212, 0.5); /* match header/footer */
   color: #fff;
   border: none;
   font-size: 2.8rem;         /* bigger arrow */
@@ -555,26 +555,31 @@ padding: 0;          /* let width/height define size */
   }
 
   #back-to-top {
-  position: fixed;
-  top: auto;                 /* disable top positioning */
-bottom: 30px;
-right: 30px;
-transform: none;   /* remove this */
-  z-index: 100;
-  background-color: rgba(187, 221, 212, 0.5); /* match header/footer */
+  position: fixed;           /* stick to the viewport */
+  bottom: 30px;              /* 30px above the bottom */
+  right: 30px;               /* 30px from the right edge */
+  z-index: 9999;             /* stay on top of everything */
+  
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;        /* perfect circle */
+  
+  background-color: rgba(187, 221, 212, 0.5);
+  border: 2px solid rgba(0,0,0,0.3);
   color: #fff;
-  border: 2px solid rgba(0,0,0,0.3); /* subtle black/gray border */
-  font-size: 2.8rem;           /* bigger arrow */
-   font-weight:900;
-width: 70px;
-height: 70px;
-padding: 0;          /* let width/height define size */
-  border-radius: 50%;          /* keep it circular */
+  font-size: 2.8rem;
+  font-weight: 900;
+  
   cursor: pointer;
-  display: none;               /* hidden by default */
+  display: none;             /* hidden by default */
   box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
   transition: background 0.3s, transform 0.2s;
-}
+  
+  /* Center the arrow inside the circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
 
 
   
@@ -690,26 +695,31 @@ padding: 0;          /* let width/height define size */
   }
 
  #back-to-top {
-  position: fixed;
-  top: auto;                 /* disable top positioning */
-bottom: 30px;
-right: 30px;
-transform: none;   /* remove this */
-  z-index: 100;
-  background-color: rgba(187, 221, 212, 0.5); /* match header/footer */
+  position: fixed;           /* stick to the viewport */
+  bottom: 30px;              /* 30px above the bottom */
+  right: 30px;               /* 30px from the right edge */
+  z-index: 9999;             /* stay on top of everything */
+  
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;        /* perfect circle */
+  
+  background-color: rgba(187, 221, 212, 0.5);
+  border: 2px solid rgba(0,0,0,0.3);
   color: #fff;
-  border: 2px solid rgba(0,0,0,0.3); /* subtle black/gray border */
-  font-size: 2.8rem;           /* bigger arrow */
-   font-weight:900;
-width: 70px;
-height: 70px;
-padding: 0;          /* let width/height define size */
-  border-radius: 50%;          /* keep it circular */
+  font-size: 2.8rem;
+  font-weight: 900;
+  
   cursor: pointer;
-  display: none;               /* hidden by default */
+  display: none;             /* hidden by default */
   box-shadow: 0px 2px 6px rgba(0,0,0,0.3);
   transition: background 0.3s, transform 0.2s;
-}
+  
+  /* Center the arrow inside the circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
 
     .social-links {
     display: flex;
