@@ -557,7 +557,7 @@ padding: 0;          /* let width/height define size */
   #back-to-top {
   position: fixed;           /* stick to the viewport */
   bottom: 30px;              /* 30px above the bottom */
-  right: 30px;               /* 30px from the right edge */
+  left: 600px;               /* 30px from the right edge */
   z-index: 9999;             /* stay on top of everything */
   
   width: 70px;
@@ -697,7 +697,7 @@ padding: 0;          /* let width/height define size */
  #back-to-top {
   position: fixed;           /* stick to the viewport */
   bottom: 30px;              /* 30px above the bottom */
-  left: 100px;               /* 30px from the right edge */
+  left: 600px;               /* 30px from the right edge */
   z-index: 9999;             /* stay on top of everything */
   
   width: 70px;
