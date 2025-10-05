@@ -422,7 +422,7 @@ padding: 0;          /* let width/height define size */
   }
 
   ul.main-menu li a {
-    font-size: clamp(1.1rem, 1vw + 1rem, 2rem);
+    font-size: clamp(0.9rem, 1vw + 1rem, 2rem);
   }
   
   #content {
@@ -691,7 +691,7 @@ padding: 0;          /* let width/height define size */
   }
 
   ul.main-menu li a {
-    font-size: clamp(1.1rem, 1vw + 1rem, 2rem);
+    font-size: clamp(0.9rem, 1vw + 1rem, 2rem);
   }
 
  #back-to-top {
