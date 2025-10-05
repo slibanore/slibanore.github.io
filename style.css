@@ -418,11 +418,11 @@ padding: 0;          /* let width/height define size */
     padding: 10px 0;
     flex-direction: row;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
   }
 
   ul.main-menu li a {
-    font-size: clamp(1.1rem, 1vw + 1rem, 2rem);
+    font-size: clamp(1.4rem, 1vw + 1rem, 2rem);
   }
   
   #content {
