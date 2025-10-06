@@ -414,20 +414,25 @@ padding: 0;          /* let width/height define size */
   }
 
 ul.main-menu {
-  width: 100%;
-  padding: 5px 0;
-  display: flex;          /* make it a flex container */
-  flex-direction: row;
-  flex-wrap: wrap;        /* allow items to move to the next line */
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
-  grid-template-columns: repeat(4, 1fr);
+  gap: 5px 15px;        /* row-gap 5px, column-gap 15px */
+  padding: 5px 0;
+  margin: 0;
+}
+
+ul.main-menu li {
+  flex: 1 1 25%;        /* 4 items per row (100% / 4 = 25%) */
+  max-width: 25%;       /* optional to prevent stretching */
+  list-style: none;
+  text-align: center;
 }
 
 ul.main-menu li a {
   font-size: clamp(1.1rem, 1vw + 1rem, 2rem);
-  text-align: center;     /* optional: center text on wrapped items */
-  line-height: 1.;
+  line-height: 1.1;     /* small vertical spacing */
+  padding: 2px 5px;     /* reduces vertical space further */
 }
   
   #content {
@@ -688,20 +693,25 @@ ul.main-menu li a {
   }
 
 ul.main-menu {
-  width: 100%;
-  padding: 5px 0;
-  display: flex;          /* make it a flex container */
-  flex-direction: row;
-  flex-wrap: wrap;        /* allow items to move to the next line */
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
+  gap: 5px 15px;        /* row-gap 5px, column-gap 15px */
+  padding: 5px 0;
+  margin: 0;
+}
+
+ul.main-menu li {
+  flex: 1 1 25%;        /* 4 items per row (100% / 4 = 25%) */
+  max-width: 25%;       /* optional to prevent stretching */
+  list-style: none;
+  text-align: center;
 }
 
 ul.main-menu li a {
   font-size: clamp(1.1rem, 1vw + 1rem, 2rem);
-  text-align: center;     /* optional: center text on wrapped items */
-  line-height: 1.;
+  line-height: 1.1;     /* small vertical spacing */
+  padding: 2px 5px;     /* reduces vertical space further */
 }
   
  #back-to-top {
