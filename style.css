@@ -422,18 +422,17 @@ ul.main-menu {
   padding: 5px 0;
   margin: 0;
   width: 100%; 
+  grid-template-columns: repeat(4, 1fr);
 }
 
 ul.main-menu li {
-flex: 1 1 25%;
-  max-width: 25%;
-  list-style: none;
+    list-style: none;
   text-align: center;
 }
 
 ul.main-menu li a {
   font-size: clamp(1.1rem, 1vw + 1rem, 2rem);
-  line-height: 1.1;     /* small vertical spacing */
+  line-height: 1.;     /* small vertical spacing */
   padding: 2px 5px;     /* reduces vertical space further */
 }
   
