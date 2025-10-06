@@ -420,7 +420,7 @@ ul.main-menu { width: 100%;
               flex-direction: row; 
               flex-wrap: wrap; /* allow items to move to the next line */ 
               justify-content: center; 
-              gap: 10px; } 
+              gap: 15px; } 
   
 ul.main-menu li a { font-size: clamp(1.1rem, 1vw + 1rem, 2rem); 
                    text-align: center; /* optional: center text on wrapped items */ }  
@@ -689,7 +689,7 @@ ul.main-menu { width: 100%;
               flex-direction: row; 
               flex-wrap: wrap; /* allow items to move to the next line */ 
               justify-content: center; 
-              gap: 10px; } 
+              gap: 15px; } 
   
 ul.main-menu li a { font-size: clamp(1.1rem, 1vw + 1rem, 2rem); 
                    text-align: center; /* optional: center text on wrapped items */ }  
