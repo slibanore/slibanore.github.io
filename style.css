@@ -415,12 +415,13 @@ padding: 0;          /* let width/height define size */
 
 ul.main-menu {
   width: 100%;
-  padding: 10px 0;
+  padding: 5px 0;
   display: flex;          /* make it a flex container */
   flex-direction: row;
   flex-wrap: wrap;        /* allow items to move to the next line */
   justify-content: center;
   gap: 15px;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 ul.main-menu li a {
@@ -688,12 +689,13 @@ ul.main-menu li a {
 
 ul.main-menu {
   width: 100%;
-  padding: 10px 0;
+  padding: 5px 0;
   display: flex;          /* make it a flex container */
   flex-direction: row;
   flex-wrap: wrap;        /* allow items to move to the next line */
   justify-content: center;
   gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 ul.main-menu li a {
