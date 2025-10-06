@@ -416,21 +416,17 @@ padding: 0;          /* let width/height define size */
 ul.main-menu {
   width: 100%;
   padding: 10px 0;
-  display: flex;
-  flex-wrap: wrap;         /* allow items to wrap to a second line */
+  display: flex;          /* make it a flex container */
+  flex-direction: row;
+  flex-wrap: wrap;        /* allow items to move to the next line */
   justify-content: center;
-  gap: 10px;               /* horizontal gap between items */
-  row-gap: 15px;           /* vertical gap between wrapped lines */
+  gap: 15px;
 }
 
-ul.main-menu li {
-  flex: 1 1 auto;          /* default width */
-  text-align: center;
+ul.main-menu li a {
+  font-size: clamp(1.1rem, 1vw + 1rem, 2rem);
+  text-align: center;     /* optional: center text on wrapped items */
 }
-
-  ul.main-menu li {
-    flex: 1 1 50%;         /* each item takes 50% → half go to first line, half to second */
-  }
   
   #content {
     margin: 0 0 15px 0; /* ✅ flush left/right */
@@ -692,22 +688,18 @@ ul.main-menu li {
 ul.main-menu {
   width: 100%;
   padding: 10px 0;
-  display: flex;
-  flex-wrap: wrap;         /* allow items to wrap to a second line */
+  display: flex;          /* make it a flex container */
+  flex-direction: row;
+  flex-wrap: wrap;        /* allow items to move to the next line */
   justify-content: center;
-  gap: 10px;               /* horizontal gap between items */
-  row-gap: 20px;           /* vertical gap between wrapped lines */
+  gap: 20px;
 }
 
-ul.main-menu li {
-  flex: 1 1 auto;          /* default width */
-  text-align: center;
+ul.main-menu li a {
+  font-size: clamp(1.1rem, 1vw + 1rem, 2rem);
+  text-align: center;     /* optional: center text on wrapped items */
 }
-
-  ul.main-menu li {
-    flex: 1 1 50%;         /* each item takes 50% → half go to first line, half to second */
-  }
-    
+  
  #back-to-top {
   position: fixed;           /* stick to the viewport */
   bottom: 30px;              /* 30px above the bottom */
