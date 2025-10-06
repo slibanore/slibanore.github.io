@@ -413,18 +413,20 @@ padding: 0;          /* let width/height define size */
     align-items: center;
   }
 
-  ul.main-menu {
-    width: 100%;
-    padding: 10px 0;
-    flex-direction: row;
-    justify-content: center;
-    gap: 10px;
-  }
+ul.main-menu {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;          /* make it a flex container */
+  flex-direction: row;
+  flex-wrap: wrap;        /* allow items to move to the next line */
+  justify-content: center;
+  gap: 10px;
+}
 
-  ul.main-menu li a {
-    font-size: clamp(0.9rem, 1vw + 1rem, 2rem);
-  }
-  
+ul.main-menu li a {
+  font-size: clamp(1.1rem, 1vw + 1rem, 2rem);
+  text-align: center;     /* optional: center text on wrapped items */
+}  
   #content {
     margin: 0 0 15px 0; /* ✅ flush left/right */
     width: 100%;        /* ✅ full width */
@@ -682,18 +684,21 @@ padding: 0;          /* let width/height define size */
     align-items: center;
   }
 
-  ul.main-menu {
-    width: 100%;
-    padding: 10px 0;
-    flex-direction: row;
-    justify-content: center;
-    gap: 15px;
-  }
+ul.main-menu {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;           /* make sure it's a flex container */
+  flex-direction: row;
+  flex-wrap: wrap;         /* allow items to go to the next line */
+  justify-content: center;
+  gap: 15px;
+}
 
-  ul.main-menu li a {
-    font-size: clamp(0.9rem, 1vw + 1rem, 2rem);
-  }
-
+ul.main-menu li a {
+  font-size: clamp(1.1rem, 1vw + 1rem, 2rem);
+  text-align: center;      /* optional: center text on wrapped items */
+}
+  
  #back-to-top {
   position: fixed;           /* stick to the viewport */
   bottom: 30px;              /* 30px above the bottom */
